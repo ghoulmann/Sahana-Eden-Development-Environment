@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Name: Core Plug-in
+Bundle-ClassPath: core.jar,retroweaver-rt.jar,commons-codec.jar
+Bundle-Activator: org.python.pydev.core.CorePlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: org.python.pydev.core; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.junit;bundle-version="[3.8.0,3.9.9]";resolution:=o
+ ptional,org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jface.tex
+ t,org.eclipse.core.resources,org.eclipse.ui.workbench.texteditor,org.
+ eclipse.core.filebuffers,org.eclipse.ui.console,org.eclipse.core.vari
+ ables
+Export-Package: org.apache.commons.codec,org.apache.commons.codec.bina
+ ry,org.apache.commons.codec.digest,org.apache.commons.codec.language,
+ org.apache.commons.codec.net,org.python.pydev.core,org.python.pydev.c
+ ore.bundle,org.python.pydev.core.cache,org.python.pydev.core.callback
+ s,org.python.pydev.core.concurrency,org.python.pydev.core.docutils,or
+ g.python.pydev.core.log,org.python.pydev.core.parser,org.python.pydev
+ .core.performanceeval,org.python.pydev.core.resource_stubs,org.python
+ .pydev.core.structure,org.python.pydev.core.uiutils
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: commons-codec.jar
+SHA1-Digest: /TJ4Z4birbZk1ezJZdpHYp3KFLo=
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: icons/python_logging.png
+SHA1-Digest: B53S93ZEmIb0NP4+Urv+EiZbl/M=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: plugin.xml
+SHA1-Digest: vhsqsw4pEKXDdiqIkEMLkjjE6XY=
+
+Name: core.jar
+SHA1-Digest: +T3CBbNcoJMhY8aNBSCrdE3npn0=
+

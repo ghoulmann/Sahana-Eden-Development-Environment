@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" date="1293396357886" version="3.0">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="file:/home/dev/.eclipse/org.eclipse.platform_3.5.0_155965261/">
+		<feature id="org.python.pydev.feature" plugin-identifier="org.python.pydev" url="features/org.python.pydev.feature_1.6.3.2010100513/" version="1.6.3.2010100513">
+		</feature>
+	</site>
+</config>

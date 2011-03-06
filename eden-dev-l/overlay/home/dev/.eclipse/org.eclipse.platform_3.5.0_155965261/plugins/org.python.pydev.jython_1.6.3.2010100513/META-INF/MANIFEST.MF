@@ -1,0 +1,1065 @@
+Manifest-Version: 1.0
+Bundle-Activator: org.python.pydev.jython.JythonPlugin
+Eclipse-BuddyPolicy: global
+Export-Package: org.python.compiler,org.python.core,org.python.modules
+ ,org.python.modules.sre,org.python.parser,org.python.pydev.jython,org
+ .python.pydev.jython.ui,org.python.rmi,org.python.util
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+Bundle-Name: Jython Plug-in
+Bundle-ClassPath: pydev-jython.jar,retroweaver-rt.jar,jython.jar
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: org.python.pydev.jython; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.python.pydev.core,org.ecl
+ ipse.ui,org.eclipse.ui.console,org.eclipse.jface.text,org.junit;bundl
+ e-version="[3.8.0,3.9.9]";resolution:=optional
+
+Name: Lib/xml/sax/saxlib.py
+SHA1-Digest: cIF9n6TexB1aD16TCJQjPaNofbU=
+
+Name: Lib/xml/dom/html/HTMLObjectElement.py
+SHA1-Digest: wDce6/D7MgXUSsflA0Wr3+lAz1I=
+
+Name: LICENSE_JYTHON.txt
+SHA1-Digest: 3ANS0lntUNRRiuu5Wc13iCBerLc=
+
+Name: Lib/xml/dom/html/HTMLButtonElement.py
+SHA1-Digest: sPjZAYQYdW7AZxGDtUeykPtuWgo=
+
+Name: Lib/threading.py
+SHA1-Digest: nLuaHkzYa0IQhFsvM2nVdjuE2nk=
+
+Name: Lib/encodings/cp860.py
+SHA1-Digest: pUbKm20XH3bo1FnDMCdgH0/Yy6o=
+
+Name: Lib/xml/parsers/xmlproc/charconv.py
+SHA1-Digest: Ei9Zp6SvyYg+6VXZxbdkTYdBHZ0=
+
+Name: Lib/xml/dom/html/HTMLLIElement.py
+SHA1-Digest: UEDA0b2PBjU5luZx2QrvKVKH7bg=
+
+Name: Lib/encodings/mac_cyrillic.py
+SHA1-Digest: 3Bozs9WTDBWkVANNdfOYvFJfsMw=
+
+Name: Lib/xml/dom/html/HTMLTitleElement.py
+SHA1-Digest: N7gymZb+lDwJ1pRLc7cQ6GbJXLU=
+
+Name: Lib/xml/parsers/xmlproc/_outputters.py
+SHA1-Digest: vKGBHbJdGLkNNyMTDeSRU+IgZ9s=
+
+Name: Lib/dbexts.py
+SHA1-Digest: wh3+tDFFLu7kEef2diM7CzuAn2E=
+
+Name: Lib/MimeWriter.py
+SHA1-Digest: KvoJKE87Gej4MyuRGKnTRUoMhtk=
+
+Name: Lib/compileall.py
+SHA1-Digest: xgqSSJFWvi2LzcdSVxeVF1bNmeA=
+
+Name: Lib/xml/dom/domreg.py
+SHA1-Digest: YfbtgOoFlr1V8ljEoK0yo8CbcVw=
+
+Name: Lib/xml/dom/html/HTMLPreElement.py
+SHA1-Digest: Ap1vdgR4Q3z9eY6yAvbZ4pdLfQ0=
+
+Name: Lib/codecs.py
+SHA1-Digest: oSE3ZSNSILxdlYEIG4iOOdLh54w=
+
+Name: Lib/xml/dom/CDATASection.py
+SHA1-Digest: ZIAe9j8dYqSFMppwk+46Fquefi0=
+
+Name: Lib/unittest.py
+SHA1-Digest: D3WamYTOySOPQF5o6mUbIUsF5Qw=
+
+Name: Lib/ConfigParser.py
+SHA1-Digest: t/3kTKBjkuZWh7AtFSwFre1FXs8=
+
+Name: Lib/shelve.py
+SHA1-Digest: pDMogo7GRbK42eqls2jZ34XabH8=
+
+Name: Lib/xml/parsers/xmlproc/xmlval.py
+SHA1-Digest: srS/g875IcIH10MsdAwQDZnFU2o=
+
+Name: Lib/pprint.py
+SHA1-Digest: lbQ2zgIC/N2fRHADoVLh50Jz3eQ=
+
+Name: Lib/xdrlib.py
+SHA1-Digest: NXfxS81jxghP07J3LPrfkpVo2og=
+
+Name: Lib/pawt/swing.py
+SHA1-Digest: l9x7WRBERxiSOVH/FGmxT3P+5cU=
+
+Name: Lib/imghdr.py
+SHA1-Digest: pImfXyrlXwzPMH52g7h3Lagbo40=
+
+Name: Lib/xml/dom/ProcessingInstruction.py
+SHA1-Digest: 6FTho7Gn7dE2jjDmF6DM0y3Brvw=
+
+Name: Lib/random.py
+SHA1-Digest: uv4R+Pz+8/CxJSgBeGj1sXxiK5E=
+
+Name: Lib/encodings/utf_16.py
+SHA1-Digest: 2LsJFwSnXkH5tzvvQCLG03dcNEk=
+
+Name: Lib/encodings/cp861.py
+SHA1-Digest: 4/NFHvvWAm02zvLYSBt+Ssh92Ik=
+
+Name: Lib/mailcap.py
+SHA1-Digest: dw2wLccxr42QetsRgJt4pxXHyYs=
+
+Name: Lib/xml/dom/NodeList.py
+SHA1-Digest: E8Zp6SmVrPjpdO6qVFTIIgDiLgM=
+
+Name: Lib/xml/sax/drivers2/__init__.py
+SHA1-Digest: ZrzoIvrmPeVikTuZ4/cPS/FqZlU=
+
+Name: Lib/pyclbr.py
+SHA1-Digest: NEp+tMzIYCsZGyReQdHJNgYq9Kc=
+
+Name: Lib/xml/dom/html/HTMLFrameSetElement.py
+SHA1-Digest: 0jR8J8Y/A20Z0TkKu4O4k4JRMxE=
+
+Name: Lib/xml/dom/Notation.py
+SHA1-Digest: 8sPaxg3s9hT9a0bKrMkWdXQYbI8=
+
+Name: Lib/xml/dom/html/HTMLFieldSetElement.py
+SHA1-Digest: NDrCfniN+LAe3GWxO1+mP+plHWU=
+
+Name: Lib/xml/dom/html/__init__.py
+SHA1-Digest: bJLHjZokaLbTRLmZdZ2wLnlxWMc=
+
+Name: Lib/xml/dom/html/HTMLLegendElement.py
+SHA1-Digest: kS+P7AtQ50aDQQkbuuorv90vlFw=
+
+Name: Lib/encodings/cp737.py
+SHA1-Digest: +3+SdJAZncq8IQS0+IBPRtUsIyY=
+
+Name: Lib/mailbox.py
+SHA1-Digest: G6lXfTYZ4TgyCwLWeOjDNyf2eA0=
+
+Name: Lib/xml/dom/Range.py
+SHA1-Digest: 59dTHYBQ9TjwIVSYGbGjCuHYZjs=
+
+Name: jysrc/assist_proposal.py
+SHA1-Digest: 6ILcim9oBxxNcsS5Lu8DpzVCfCs=
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: Lib/xml/dom/html/HTMLDListElement.py
+SHA1-Digest: adu4uVznpix6ulpbpRvyXpUqWqU=
+
+Name: Lib/encodings/cp1006.py
+SHA1-Digest: lpbNHU8MRSz/E9nuhPr2BHp4Qa0=
+
+Name: Lib/xml/parsers/xmlproc/xcatalog.py
+SHA1-Digest: yyAgkbtHqJ37kEbL1iXUo26K3wQ=
+
+Name: Lib/xml/dom/pulldom.py
+SHA1-Digest: ZeIdm5bpCzO7B3BYpjYYwPi27Sw=
+
+Name: Lib/xml/dom/html/HTMLFontElement.py
+SHA1-Digest: 9DJUOos5HBYTrOl06hlH9tjBC0I=
+
+Name: Lib/encodings/cp1253.py
+SHA1-Digest: N+7d4a/tqIwe7TirvtGVZw+E4VM=
+
+Name: Lib/encodings/utf_16_le.py
+SHA1-Digest: PXIB5OJ/ZowpIwyi9uleWwox8RA=
+
+Name: Lib/sched.py
+SHA1-Digest: kq/0SXkaZe0M5theuuSV9R48LsM=
+
+Name: Lib/encodings/__init__.py
+SHA1-Digest: uUc+2XCwr8qaFAeJOO304NUgzqQ=
+
+Name: Lib/encodings/unicode_internal.py
+SHA1-Digest: tg1oI9oe+JJd5u/wIAfDhOqTZOA=
+
+Name: Lib/fpformat.py
+SHA1-Digest: Zn5iTcA3sNbpscWR/UGRwkEfobA=
+
+Name: jython.jar
+SHA1-Digest: GkhRiImn78SzTrznED1A47crCWU=
+
+Name: Lib/tzparse.py
+SHA1-Digest: gGRj2VLdgeOWB8HT6m7xVMujjeo=
+
+Name: Lib/encodings/iso8859_3.py
+SHA1-Digest: 87RkVuOqaxwixUevMiFyHu0EHwk=
+
+Name: jysrc/template_helper.py
+SHA1-Digest: vf0EDSh2UwbzK7pKdyI9gkfE46U=
+
+Name: jysrc/pyedit_assign_params_to_attributes.py
+SHA1-Digest: SsMEqygA3Fy146uzrm3aozpo++s=
+
+Name: Lib/re.py
+SHA1-Digest: CuAYFaKHRTa5RdRYs4c8AzfRv7U=
+
+Name: Lib/encodings/cp864.py
+SHA1-Digest: oJB4kZfuvGu9cM2iYjY5fhHUqZo=
+
+Name: Lib/xml/dom/NodeIterator.py
+SHA1-Digest: KrncsDyp2M9jNE2WQEkc02ktq/o=
+
+Name: Lib/formatter.py
+SHA1-Digest: drTtoSD5cIyW3bPvVlgI7rudLd4=
+
+Name: Lib/rfc822.py
+SHA1-Digest: WGgVxcsJoP14PIJjrMbwd/rsAMc=
+
+Name: plugin.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: Lib/xml/dom/ext/__init__.py
+SHA1-Digest: BqqC2v/8426L+gckCWPjP5II+Mc=
+
+Name: Lib/xml/dom/Attr.py
+SHA1-Digest: RAOij0p4QzCec0X8LKdF0L42k48=
+
+Name: Lib/pawt/colors.py
+SHA1-Digest: mJIYZ7LuYRoKQmrwIMRLV2ZAiqw=
+
+Name: Lib/xml/sax/xmlreader.py
+SHA1-Digest: 7TzNYK4eWqD1N/23o+D6cRfVopQ=
+
+Name: Lib/macurl2path.py
+SHA1-Digest: c47sMC6ChD93e7O9eGNs94myMyY=
+
+Name: Lib/encodings/cp869.py
+SHA1-Digest: +G6qAyL9lPAroqrUSo2i3sYVXj0=
+
+Name: Lib/bisect.py
+SHA1-Digest: nAJhLg+gHDJaQL95DqG189aFv4A=
+
+Name: Lib/encodings/iso8859_15.py
+SHA1-Digest: llAcO4HTqxF1qEck+08M04Za37Y=
+
+Name: Lib/encodings/mac_greek.py
+SHA1-Digest: oqtIjBGAUwd+xB4olOdwsvVG8Kg=
+
+Name: Lib/encodings/undefined.py
+SHA1-Digest: Lj2C7IymZ2RmOHqHZR1OE15yKFM=
+
+Name: Lib/xml/dom/MessageSource.py
+SHA1-Digest: eOoRFQKDEdlTcpzjgzByi8p/2gs=
+
+Name: Lib/xml/dom/FtNode.py
+SHA1-Digest: 1kjeS2hJ8gbfvpHj/ZbA0+Z8Q7g=
+
+Name: Lib/cmd.py
+SHA1-Digest: MqGUS5uglgVDps7Bs9c36Lx8UoY=
+
+Name: Lib/xml/dom/html/HTMLParagraphElement.py
+SHA1-Digest: XGt1IQdgfnIlkaW2AUYdL82AyO0=
+
+Name: Lib/xml/dom/html/HTMLLinkElement.py
+SHA1-Digest: n8JUreOAKSQNkw1pxOEkLsEIPLY=
+
+Name: Lib/smtplib.py
+SHA1-Digest: rg8QpiGJTBC7675+HOhvC5o08vg=
+
+Name: Lib/xml/dom/ext/Printer.py
+SHA1-Digest: DPVKyN/ug43y038KObAflMeTOVc=
+
+Name: Lib/xml/utils/__init__.py
+SHA1-Digest: o+Z5AqH80cFFCwvaE2VdB3RJOxk=
+
+Name: Lib/xml/utils/qp_xml.py
+SHA1-Digest: t9K4Zlr2dULxSn5Ts5W0EP2EsHg=
+
+Name: Lib/xml/dom/html/HTMLOptionElement.py
+SHA1-Digest: 9ZGGIwWft60hTehGBh/o1DdvLfk=
+
+Name: Lib/xml/parsers/xmlproc/xmlapp.py
+SHA1-Digest: Dv2P2Hmxj8agFv0oGydJsJyWDR4=
+
+Name: Lib/Queue.py
+SHA1-Digest: pXkDYf2W5ZSfC7h+9JuESmYi9uw=
+
+Name: Lib/ftplib.py
+SHA1-Digest: P6qTjghpM9KR+em3znfKMjGiv3U=
+
+Name: Lib/sndhdr.py
+SHA1-Digest: qBHtsTEPMnjMwJCOyQEsEXqqM8w=
+
+Name: Lib/encodings/cp500.py
+SHA1-Digest: go+ALpzbItLVE6DJCuf/GIrDvTU=
+
+Name: jysrc/pyedit_kill_shells.py
+SHA1-Digest: SRrxnvcElyHAcN+nvb8sRLcksbw=
+
+Name: Lib/xml/dom/html/HTMLSelectElement.py
+SHA1-Digest: 5TjhgdDhgikEGw8VZrG4mLHmfrc=
+
+Name: Lib/xml/dom/html/HTMLDOMImplementation.py
+SHA1-Digest: 6h6Ex0Y8+5Tsp8ShXRLjCHm4Fi8=
+
+Name: Lib/encodings/mac_latin2.py
+SHA1-Digest: zQk+pE6HFvfwhnl2GfC24JNVtu4=
+
+Name: Lib/encodings/iso8859_8.py
+SHA1-Digest: XNaVSqBO8C7ft3deB1WM+Ca/Zck=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: Lib/xml/dom/html/HTMLHRElement.py
+SHA1-Digest: +UtL1vFrRFi1YuR15BrqDGEmeFs=
+
+Name: Lib/xml/dom/ext/reader/Sax2Lib.py
+SHA1-Digest: bfMaYwVIwV+P8P3+0Nt/WOxhFbs=
+
+Name: Lib/keyword.py
+SHA1-Digest: 9MsTqUTwgOS9VhyLjG6jak6Hcuc=
+
+Name: Lib/xml/dom/Event.py
+SHA1-Digest: PSj+cipW4ot2zaFKW3kC0grXBfY=
+
+Name: Lib/popen2.py
+SHA1-Digest: 9gQ/LacEy77mksK0cvFjoUPO7GY=
+
+Name: Lib/ntpath.py
+SHA1-Digest: qaHh4lpGnmjUtRHGrF2hCS9uBJ0=
+
+Name: Lib/BaseHTTPServer.py
+SHA1-Digest: GLHCvqjGfmjh1oikAtn5WtVCN/k=
+
+Name: Lib/base64.py
+SHA1-Digest: 9zjqxVneZaPUFxtW/+1ltodnQxw=
+
+Name: Lib/xml/dom/html/HTMLDocument.py
+SHA1-Digest: 0tbdRXbjt271g51zR8g92SN39vk=
+
+Name: Lib/xml/dom/ext/reader/Sax.py
+SHA1-Digest: E6TzCmNXbjiSY2OEE9hdtpCrtQs=
+
+Name: Lib/encodings/iso8859_5.py
+SHA1-Digest: O64rfXyzFg7LIqdpq5v/JVKJGXY=
+
+Name: Lib/xml/dom/html/HTMLTextAreaElement.py
+SHA1-Digest: viu8C9U9N6Gch6CNXD68KrMqls4=
+
+Name: Lib/xml/sax/writer.py
+SHA1-Digest: Efi9kuigK1bPoTM8rWzt974HNN8=
+
+Name: Lib/xml/dom/html/HTMLOListElement.py
+SHA1-Digest: rYPrOY4oDDSdREQIIE1yL9jrND4=
+
+Name: Lib/encodings/aliases.py
+SHA1-Digest: pBvNjQMuxctkXWjqPm5SNch2t78=
+
+Name: Lib/UserList.py
+SHA1-Digest: e+OHN/f5gQN7jIM1kfwxo/skgzI=
+
+Name: Lib/xml/sax/_exceptions.py
+SHA1-Digest: 3+b+ISy2y4yi6fVEGlZYCGYUTmw=
+
+Name: Lib/xml/dom/html/HTMLTableRowElement.py
+SHA1-Digest: J8pv47j9Vh9LCSpynzJd0GAukD4=
+
+Name: Lib/nturl2path.py
+SHA1-Digest: jGwlhUoxBbkS3ds40vUA/eTRjGg=
+
+Name: Lib/code.py
+SHA1-Digest: iwELE9CkwKPuNU2cIvw48fVWZzI=
+
+Name: Lib/xml/dom/html/HTMLCollection.py
+SHA1-Digest: qFAveU+cWbyhsv4TWPuswnzJQSc=
+
+Name: jysrc/about.html
+SHA1-Digest: 32M3OQdXzMfFT/AaMymzh3hD+Yo=
+
+Name: Lib/xml/sax/expatreader.py
+SHA1-Digest: +c82uTmULV1UP6gqWEP8J0z3d3k=
+
+Name: Lib/xml/dom/html/HTMLBRElement.py
+SHA1-Digest: ttclszYI6zOsreDvSZlnqUWBSUg=
+
+Name: Lib/sre_constants.py
+SHA1-Digest: qGWx0vFNwY7ZxQiNb4BhRfjQYIo=
+
+Name: Lib/xml/parsers/xmlproc/xmlutils.py
+SHA1-Digest: F/KspTJXLL7k+uBwSAmdMKno2Sg=
+
+Name: Lib/xml/__init__.py
+SHA1-Digest: u7z821C29ZVBQRw6hu5e+hGEXGo=
+
+Name: Lib/stat.py
+SHA1-Digest: lo+x+Emy+s59a27YIZS7fE8kdhA=
+
+Name: Lib/dumbdbm.py
+SHA1-Digest: BSjPn4jpSl/CrAkAu6Fq5qHJMEA=
+
+Name: jysrc/assign_params_to_attributes_assist.py
+SHA1-Digest: bDd7kLBy/EZATKK24tPQPLgi/Kc=
+
+Name: Lib/xml/dom/html/HTMLAppletElement.py
+SHA1-Digest: Sag8OphxGsE02fRo8jaahdnO8xE=
+
+Name: Lib/encodings/iso8859_7.py
+SHA1-Digest: Gk3YhwuYC44Qh5r8k3H/24sA9q4=
+
+Name: Lib/mutex.py
+SHA1-Digest: aE2tboNWWmDmCrU9GGQmxGl5Jws=
+
+Name: Lib/dircache.py
+SHA1-Digest: YiEdwF9ab+HL9cs3qqUcornd0EY=
+
+Name: Lib/xml/dom/ext/Visitor.py
+SHA1-Digest: hve3mPiQe9/YPs0/0zeGFzxBcj0=
+
+Name: Lib/encodings/cp424.py
+SHA1-Digest: 57JQRNeQmJYMdtIDJix3u0dR1/Y=
+
+Name: Lib/xml/dom/DocumentFragment.py
+SHA1-Digest: Akhc7Q5O0w8Hya9H50Hvsr4RJFs=
+
+Name: Lib/xml/sax/__init__.py
+SHA1-Digest: YDhRrtFvQMAihu1c+pj8zpmBoSM=
+
+Name: Lib/xml/dom/html/HTMLLabelElement.py
+SHA1-Digest: dXX4gsZ4ITJjrTLgey5a2RW8Xms=
+
+Name: Lib/whichdb.py
+SHA1-Digest: YimuLZ7MDhOqSwYveBfFfWCjmMI=
+
+Name: Lib/encodings/cp852.py
+SHA1-Digest: wtg+MawnEhLYgsvzY3wvyZ+2gws=
+
+Name: Lib/xml/dom/__init__.py
+SHA1-Digest: UCiEyBY8l3oy3oLoZ1xAGx3KyQE=
+
+Name: Lib/xml/dom/TreeWalker.py
+SHA1-Digest: GfObXJF+EXQezw3CbVHD8Q1DP+Y=
+
+Name: Lib/xml/dom/html/HTMLMapElement.py
+SHA1-Digest: ZnUUxYbjy8nxo6m1eYJiHt74Y3Y=
+
+Name: Lib/xml/parsers/xmlproc/xmlproc.py
+SHA1-Digest: yKnVSMaNnLeBtNSwRzXWW9YZO3I=
+
+Name: Lib/encodings/cp1252.py
+SHA1-Digest: VjtWy2c2HYg+/iL1C9OaazaSfgc=
+
+Name: Lib/encodings/iso8859_9.py
+SHA1-Digest: 4wypB4GpEsfO0v79rEYWgI+cMQo=
+
+Name: Lib/xml/dom/html/HTMLBaseElement.py
+SHA1-Digest: H5aRqr0ieWoMFMKIUioMC3iHnFw=
+
+Name: Lib/symbol.py
+SHA1-Digest: 7JGhbLGDzEEstgtk6kODGjI9Gzc=
+
+Name: Lib/xml/dom/Entity.py
+SHA1-Digest: u95y4KDDzjN+Dz+HBeBEw65T3XQ=
+
+Name: Lib/xml/sax/saxexts.py
+SHA1-Digest: Nmwt2bU4zhHDiAMM4Y2HvKaJaHM=
+
+Name: Lib/xml/sax/sax2exts.py
+SHA1-Digest: S1gEN1Tgjcgwlb/yxTRCogzsaMU=
+
+Name: jysrc/pyedit_wrap_paragraph.py
+SHA1-Digest: AF+EYLRS2AUSBzQStUTSZ68Ws5w=
+
+Name: Lib/anydbm.py
+SHA1-Digest: vXbvIJm5P8AFd8z2bqCN8l5KBlE=
+
+Name: Lib/xml/sax/drivers2/drv_xmlproc.py
+SHA1-Digest: OMjTWtLb/3Urt/TtYi5IdmOBiDE=
+
+Name: Lib/xml/parsers/__init__.py
+SHA1-Digest: BVCh1tzHuO8qNPxEHJMf9dLY/mk=
+
+Name: jysrc/assign_params_to_attributes_action.py
+SHA1-Digest: Ec4HhgxH4US86tRBXDiulF2tIMY=
+
+Name: Lib/xml/dom/html/HTMLIFrameElement.py
+SHA1-Digest: Z7Nxyg0cPmYRyiCWJEktCCF4gr4=
+
+Name: Lib/xml/dom/minitraversal.py
+SHA1-Digest: 5SL2WmUFZnSNaYLcLGyXhB2xL6o=
+
+Name: Lib/dospath.py
+SHA1-Digest: 924BJ5GR5n1+yaFGj2gnTc3hB5E=
+
+Name: Lib/xml/dom/html/HTMLStyleElement.py
+SHA1-Digest: ENQvK6+DDLZBmlP5xLMxh6rigTs=
+
+Name: Lib/xml/dom/NamedNodeMap.py
+SHA1-Digest: DDXjyzjiNnpUDKcrCDf4Zi51TeY=
+
+Name: Lib/LICENSE
+SHA1-Digest: Ewv2KKV3IrUt7tLuXJMJXt1RfnQ=
+
+Name: Lib/xml/dom/html/HTMLBodyElement.py
+SHA1-Digest: igX3B8BbmH2+oEJVs1pXx9qJ3/Q=
+
+Name: Lib/urllib.py
+SHA1-Digest: qmfhaPs5o2se2hu/kUAnRGUtBBg=
+
+Name: Lib/xml/dom/NodeFilter.py
+SHA1-Digest: acB5rRWhR6mL53MbzG+egtGaHV4=
+
+Name: Lib/commands.py
+SHA1-Digest: oIElt535bOg/6Wq1RwWeXTeqvj4=
+
+Name: Lib/pawt/__init__.py
+SHA1-Digest: reYUKInje8ekocyGEJPlk86JeJE=
+
+Name: Lib/encodings/cp866.py
+SHA1-Digest: ccKo2eywOM3olnJXkHUSqspH1zw=
+
+Name: pydev-jython.jar
+SHA1-Digest: xvpVudskGMLg/xndguJu4/pzUvA=
+
+Name: Lib/xml/parsers/xmlproc/__init__.py
+SHA1-Digest: 8d2Eq3DFi+0vfx5oBSUi7Bjis1Y=
+
+Name: Lib/imaplib.py
+SHA1-Digest: 0KjVxhlj+nHxU6475ZZsm4b3n4Q=
+
+Name: Lib/encodings/iso8859_2.py
+SHA1-Digest: Usyj/fqSv3k7qOTWQsW+QoITgIk=
+
+Name: Lib/xml/dom/EntityReference.py
+SHA1-Digest: W6M17KKzZc+AnkvCITYeaPEj044=
+
+Name: Lib/xml/dom/html/HTMLIsIndexElement.py
+SHA1-Digest: PHNM/E8OnjT+EPwF6EpqsYuitRw=
+
+Name: Lib/encodings/cp874.py
+SHA1-Digest: O96NVyWZCazSvUpDg7v+a5RFnWQ=
+
+Name: Lib/xml/dom/html/HTMLAreaElement.py
+SHA1-Digest: y7cRKsb3sMM1EDER7JAc7G/MsQk=
+
+Name: Lib/encodings/cp857.py
+SHA1-Digest: 5r8zr2Iqkc6CsRuPV+zMD3c9++E=
+
+Name: Lib/pstats.py
+SHA1-Digest: eFzQwtS22p2w8dOjgkpHS7SU+0c=
+
+Name: Lib/mimetypes.py
+SHA1-Digest: 9cKW5rjCkF76eNJq1XHay8XBgow=
+
+Name: Lib/multifile.py
+SHA1-Digest: RDUwzf2o7Ee2mylNM8JdIL1YpGw=
+
+Name: Lib/test/pystone.py
+SHA1-Digest: IbRxsf5GQ4Y1VdHcdg+aGcMRezw=
+
+Name: Lib/xml/dom/html/HTMLMenuElement.py
+SHA1-Digest: U+NMmFiNywerWTShx44MQyWrLdE=
+
+Name: Lib/posixfile.py
+SHA1-Digest: 1AtGExfZFi3orfQLnnPtdJz8LD8=
+
+Name: Lib/zlib.py
+SHA1-Digest: eZXeGM3234oNe0lsm5K9xAbfsA8=
+
+Name: Lib/pickle.py
+SHA1-Digest: 2B4kUEyrDrcCC7pdVo7wY6h6SAA=
+
+Name: Lib/xml/utils/iso8601.py
+SHA1-Digest: BnDdU+hQfQZJX8cAhW/glBz0GOo=
+
+Name: Lib/glob.py
+SHA1-Digest: Hq8i/xraR3beC1Cq5N620HulJ/c=
+
+Name: Lib/getopt.py
+SHA1-Digest: oVrYSSqYiXaCuzaBRC2ufBvHM7c=
+
+Name: Lib/encodings/cp1026.py
+SHA1-Digest: cN3rndvEqsoO1Y60X6iv7OxF2X0=
+
+Name: Lib/poplib.py
+SHA1-Digest: eC+83IJpjv0k1G/bzDN+OsbzdhA=
+
+Name: Lib/shutil.py
+SHA1-Digest: M9L/8ECRjw9tVEAHdELf+Oju/AY=
+
+Name: Lib/encodings/cp1255.py
+SHA1-Digest: ioLjmSWcBdnfwghQllWZMlWAqO0=
+
+Name: Lib/encodings/cp1257.py
+SHA1-Digest: uccX/XkvmeiIFys4X6gmNts1zLc=
+
+Name: Lib/atexit.py
+SHA1-Digest: ntl6b7J+CI08JEywHruxCg17hPM=
+
+Name: Lib/encodings/cp875.py
+SHA1-Digest: 0tJ0sHVc0gUDzkVAtDsUnpkHfLo=
+
+Name: jysrc/tests/test_convert.py
+SHA1-Digest: QLQ7IHIBRvy59LsFScwQ0eQLXyw=
+
+Name: Lib/UserDict.py
+SHA1-Digest: DIjL8OaoxSaaYYS+p1BQ3om/qC8=
+
+Name: jysrc/assist_regex_based_proposal.py
+SHA1-Digest: R2WXK6EJvcQqDtgD3kCa/MZLIbs=
+
+Name: Lib/encodings/raw_unicode_escape.py
+SHA1-Digest: wonT+S2zIT4TPLVtregCSPmR13c=
+
+Name: jysrc/tests/test_templates.py
+SHA1-Digest: ReUsb1kEd9GAkWM8zlcqHvQOLIQ=
+
+Name: Lib/xml/dom/html/HTMLTableSectionElement.py
+SHA1-Digest: 9idohe0YVKhaK26T/QPm3sGUM9o=
+
+Name: Lib/xml/dom/DocumentType.py
+SHA1-Digest: E70cJ+Wtys7ETXy46cYBMl7xyxQ=
+
+Name: Lib/xml/dom/html/HTMLOptGroupElement.py
+SHA1-Digest: C/svCbn+gvGzX9mvZJl85SpVZuo=
+
+Name: Lib/xml/sax/handler.py
+SHA1-Digest: YAoXUteIxVzfZ9BAKd4Gg7FDhTA=
+
+Name: Lib/profile.py
+SHA1-Digest: jAFTR1/5z9FSym8kJ7c0zA9bvjw=
+
+Name: Lib/mhlib.py
+SHA1-Digest: vZeh2zLosYJuCfbort0i7lR4He8=
+
+Name: Lib/sre_compile.py
+SHA1-Digest: 9CqSRsRxcIlT3rvEnfTODJrFc0w=
+
+Name: plugin.xml
+SHA1-Digest: /tKu6CwlkTZRP7jvd+vkjaqAVWs=
+
+Name: Lib/cgi.py
+SHA1-Digest: IWhFOp9AwP2g0O6vYg5TDNywxYY=
+
+Name: Lib/repr.py
+SHA1-Digest: 0Vjq7owbz2EBd1ChH1Xc71+fp+Y=
+
+Name: Lib/xml/parsers/xmlproc/errors.py
+SHA1-Digest: 1paojnC414H4rLm99XJQCYcU+QM=
+
+Name: Lib/xmllib.py
+SHA1-Digest: QcSxJ33QkpVpzsW9T3LmqMrm/tw=
+
+Name: Lib/xml/parsers/xmlproc/utils.py
+SHA1-Digest: 54QhNRaCFpjqYB3udsfqY5hh0w8=
+
+Name: jysrc/pyedit_import_to_string.py
+SHA1-Digest: Y1xLd2kU54bcIR0362IHFQDSoLw=
+
+Name: Lib/zipfile.py
+SHA1-Digest: BbsFxClnhxDK4KHnERU/FSSt590=
+
+Name: Lib/xml/dom/ext/XHtmlPrinter.py
+SHA1-Digest: 7r8FC9fwRm+e1kuFLfRqht57b04=
+
+Name: Lib/jreload.py
+SHA1-Digest: ty4vmF4hZmsCKVQUflnU6RZsLcQ=
+
+Name: Lib/encodings/iso8859_10.py
+SHA1-Digest: luGYV3nyG+aWIPAt31VbZZCQl04=
+
+Name: Lib/sre_parse.py
+SHA1-Digest: fifcyu9Cz8iMQ7Gi3AoCJMh7dYA=
+
+Name: Lib/tempfile.py
+SHA1-Digest: A5sAYnRchh9tRkw3UAxP2yYNqb8=
+
+Name: Lib/encodings/utf_16_be.py
+SHA1-Digest: 43dbsIXKj/Qifgl5j4iu13PvuVk=
+
+Name: Lib/xml/dom/Document.py
+SHA1-Digest: uQYHAeN5W96cRwLSOJMBsXRJg+s=
+
+Name: Lib/xml/dom/html/HTMLTableElement.py
+SHA1-Digest: EdAcGepyOBfENItI+H2d8Q2Bnl4=
+
+Name: Lib/quopri.py
+SHA1-Digest: 65KDxsuiZ6fHUQ5Nwb2771R2KBA=
+
+Name: Lib/UserString.py
+SHA1-Digest: HX8En4x7uWKhUcxnjkHiBQYbEaM=
+
+Name: Lib/encodings/koi8_r.py
+SHA1-Digest: zSypVeGHWVe6jpzJnFtbBFnsTVo=
+
+Name: Lib/socket.py
+SHA1-Digest: 4yFgo9rdnSTwp0Nq1TpxC5lZdso=
+
+Name: Lib/posixpath.py
+SHA1-Digest: RGM2yhBwWd1YbajJAhB7+ctQw6s=
+
+Name: Lib/gopherlib.py
+SHA1-Digest: fgt1sGJ1D+CJSbDHHai7m2JlXwE=
+
+Name: Lib/xml/dom/html/HTMLFormElement.py
+SHA1-Digest: ifyNJVg3ugjYH0q41m/D1nNiYfM=
+
+Name: Lib/token.py
+SHA1-Digest: 6YOHKwCTPeyxAZjNzsHufJ7lVOY=
+
+Name: Lib/sre.py
+SHA1-Digest: 2OsiABkoFztiVqj6gnUvQwOQJPo=
+
+Name: jysrc/__pyedit_list_bindings.py
+SHA1-Digest: WIDu57DMuCnC69rhurOGEUumaEg=
+
+Name: Lib/htmlentitydefs.py
+SHA1-Digest: sgnE/lYB3Okem2Cgf3DW7CVqhZ8=
+
+Name: Lib/xml/dom/html/HTMLDivElement.py
+SHA1-Digest: HjLRQbjMXMsHH15U3WL/XeBgerY=
+
+Name: Lib/httplib.py
+SHA1-Digest: rj9SYlXTF53quEKXcCDvtpCxUd8=
+
+Name: Lib/encodings/iso8859_1.py
+SHA1-Digest: WPO80nz3sJkgq/5GjLYQMafo1d0=
+
+Name: Lib/CGIHTTPServer.py
+SHA1-Digest: PU+QeurWm+GlUdvGJ1MrFTXnapQ=
+
+Name: Lib/encodings/cp1254.py
+SHA1-Digest: w8aOxyDvFfTRXGyuObPzdLSN4m8=
+
+Name: Lib/encodings/cp862.py
+SHA1-Digest: j28qimvyKhsWb3IA3kxzSW3fcCM=
+
+Name: Lib/encodings/iso8859_13.py
+SHA1-Digest: q/ySGPjkKksYIjoTmAhEtAWlpHg=
+
+Name: Lib/urlparse.py
+SHA1-Digest: 1TyabAH1+QY0AyEQaBrkAThDN4w=
+
+Name: Lib/xml/dom/DOMImplementation.py
+SHA1-Digest: SnzrvGaIavVKaZT3HccZQlzKFoM=
+
+Name: Lib/pipes.py
+SHA1-Digest: sVhFvVFAn7SWT42St8naQzTkI1s=
+
+Name: Lib/copy_reg.py
+SHA1-Digest: beCeIqPWuZb/2R+PTJih8zZqATo=
+
+Name: Lib/StringIO.py
+SHA1-Digest: 2fiGqx/rRfrAHTR4K5RQxb8mr74=
+
+Name: Lib/whrandom.py
+SHA1-Digest: PbRMtkObmctOKLOi5KZIg/5j20k=
+
+Name: Lib/htmllib.py
+SHA1-Digest: TBhCQ53VnqOw7Fmd7YjfE9/RuoY=
+
+Name: Lib/colorsys.py
+SHA1-Digest: lGgN3wExE++lcy/P25h5oHtSJ2s=
+
+Name: Lib/marshal.py
+SHA1-Digest: N1Q6mbiTOrqkwqf0i16kBfAOpE4=
+
+Name: Lib/encodings/cp037.py
+SHA1-Digest: MqsF+Lf4KW3IG5GbnCcf/END1wM=
+
+Name: Lib/encodings/iso8859_14.py
+SHA1-Digest: H0DjtVp/lknvqdYchI1nUbHyjhc=
+
+Name: Lib/xml/dom/ext/reader/__init__.py
+SHA1-Digest: +POAl5rTzs5p7m2z1MTIponPmnc=
+
+Name: Lib/encodings/iso8859_4.py
+SHA1-Digest: Ki+7WZ1Z7CV75BWLGaxtEpAAMTU=
+
+Name: Lib/xml/parsers/xmlproc/catalog.py
+SHA1-Digest: Eur17IHXrlCcG/Vh7n6PfvzxbIM=
+
+Name: Lib/SimpleHTTPServer.py
+SHA1-Digest: g/O181FmssBydIugUsV5JpcKZ4Y=
+
+Name: Lib/sgmllib.py
+SHA1-Digest: oDK/CxrByU+O5v/hYYUztcYUEDk=
+
+Name: Lib/xml/dom/html/HTMLMetaElement.py
+SHA1-Digest: edHl2Df3bpsIQ0F6flTg3RcByeA=
+
+Name: Lib/encodings/cp856.py
+SHA1-Digest: /deA1a6VyEEfFSeznOklY+U025E=
+
+Name: Lib/xml/dom/html/HTMLElement.py
+SHA1-Digest: Fj/YMu96/W0g8tH5FjqJFp7OvEE=
+
+Name: Lib/copy.py
+SHA1-Digest: ohgRDSwA0dGpcosmMgzGJzWx8bU=
+
+Name: Lib/__future__.py
+SHA1-Digest: gyN+8O8Uh3se1B8FkY+Yy+cYgfA=
+
+Name: Lib/xml/dom/html/HTMLTableColElement.py
+SHA1-Digest: oF5oG2WPyE6KlxlNkDc3mmMa6oQ=
+
+Name: Lib/nntplib.py
+SHA1-Digest: WAKq5fnvGU9wDSTNe7yyEmVFtdQ=
+
+Name: Lib/javaos.py
+SHA1-Digest: bn2EZKkeKx9VG8Gy6JsuQMJvhhs=
+
+Name: Lib/mimify.py
+SHA1-Digest: K7i8xmW3hk7RsJ2rWdw5SuQqkfg=
+
+Name: Lib/xml/dom/html/HTMLInputElement.py
+SHA1-Digest: k3n1WqWIrBNQEYXhHeNTrHMeg3Y=
+
+Name: Lib/binhex.py
+SHA1-Digest: YB6BI98VhnG5usJkWV8LiqG9GvQ=
+
+Name: Lib/xml/parsers/xmlproc/namespace.py
+SHA1-Digest: +sJKHzjAhJ/y5ibU427YTAbfigU=
+
+Name: Lib/calendar.py
+SHA1-Digest: 8LAbuW7KFIpADPfbpxlJIKeEuT4=
+
+Name: Lib/xml/dom/html/HTMLQuoteElement.py
+SHA1-Digest: 8lMrAFcsd0pj8N6yGCAQzjtKGXk=
+
+Name: jysrc/tests/__init__.py
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: Lib/encodings/unicode_escape.py
+SHA1-Digest: IwETWWZzzf2GTlUMFXPlAMGBSaw=
+
+Name: Lib/telnetlib.py
+SHA1-Digest: YsvImbXWqklfgV4Wpw+EIpoa0ZQ=
+
+Name: Lib/warnings.py
+SHA1-Digest: irIAGx9QkV+Dl/HFW1yft46RMME=
+
+Name: Lib/encodings/cp1250.py
+SHA1-Digest: 2l1UFxi49Up7WJYgJ1UMZCiFK8o=
+
+Name: Lib/xml/dom/CharacterData.py
+SHA1-Digest: P1hRjtohAOTD9SLFgp+R4wEd6z8=
+
+Name: Lib/encodings/cp775.py
+SHA1-Digest: K/M48Ret2WQ7xbTL3KMIO7AFGRw=
+
+Name: Lib/gzip.py
+SHA1-Digest: hPyJB57XQnNPuvtKi19hQEM7CRI=
+
+Name: Lib/difflib.py
+SHA1-Digest: NDR7OnSnVL8HVwDE3W1q/+m/f1s=
+
+Name: jysrc/pyedit_clear_templates_cache.py
+SHA1-Digest: By7r03YVK22HkbDKq2NeUzrk5f0=
+
+Name: Lib/isql.py
+SHA1-Digest: cP7inQqDvhFewJ3e2HmLqtjHIBk=
+
+Name: Lib/fnmatch.py
+SHA1-Digest: ka9Dd74sb2r3SbupBMMFFlGzduo=
+
+Name: Lib/xml/dom/html/HTMLAnchorElement.py
+SHA1-Digest: VrnvJ2o3E9USgzFYjMuzUf6csXY=
+
+Name: jysrc/pyedit_example2.py
+SHA1-Digest: Wne6Gbj95OsODW7kA9IQBi0tvKw=
+
+Name: jysrc/pytemplate_defaults.py
+SHA1-Digest: TNKRe6YrNRUvxz2IQbT5RUeQ3kA=
+
+Name: Lib/encodings/cp1256.py
+SHA1-Digest: by3gRjvoZ/iU3bwzyvmy8+BDtVk=
+
+Name: Lib/xml/dom/ext/XHtml2HtmlPrinter.py
+SHA1-Digest: AEQ3OAgff84m1UCOH/jpXx5EI24=
+
+Name: Lib/encodings/ascii.py
+SHA1-Digest: gNZLD6/OPYVKz0X9fxnMUVRDGho=
+
+Name: Lib/linecache.py
+SHA1-Digest: zHvcN+t5ThykTf7ReGm01RPrG44=
+
+Name: Lib/doctest.py
+SHA1-Digest: MHzko6Xax5c6yVEaCBojl1bM0TI=
+
+Name: Lib/pdb.py
+SHA1-Digest: pUU4Cqer6wk3rjbocKzL7dLIC9I=
+
+Name: Lib/tokenize.py
+SHA1-Digest: 80jArFKHbUmwUfYB+thczzbzGzI=
+
+Name: Lib/xml/dom/html/HTMLParamElement.py
+SHA1-Digest: l+q4dgtwMyjPpw/ao2My6c4342Q=
+
+Name: Lib/encodings/charmap.py
+SHA1-Digest: CvtKAKObIhSly0yCMmHXGGktzp4=
+
+Name: Lib/xml/dom/Comment.py
+SHA1-Digest: 9rhGvNJh1/xHfht6EvRyqlIbGMQ=
+
+Name: Lib/encodings/latin_1.py
+SHA1-Digest: DZ+61FnW+O1QzHCYNM2cJzY+KBY=
+
+Name: Lib/user.py
+SHA1-Digest: ot1Cctn9aBLs43k8A6ScXNaOFFM=
+
+Name: Lib/encodings/cp855.py
+SHA1-Digest: HUn2pnkOcGVTyjOoSHq9SWaxbOk=
+
+Name: Lib/javapath.py
+SHA1-Digest: LESlgLHwrwruAVzL1u+btKhgsrM=
+
+Name: Lib/encodings/cp865.py
+SHA1-Digest: z5cENsqRSpvLOc6esgoZ0ngUGcs=
+
+Name: Lib/SocketServer.py
+SHA1-Digest: Nagwpz3sIZlDriLO/hvGp95qn8M=
+
+Name: Lib/xml/ns.py
+SHA1-Digest: NlYicyxKapfKuhcyT2gxE7fplAo=
+
+Name: Lib/xml/dom/html/HTMLFrameElement.py
+SHA1-Digest: jjNxiy+qDlxHr//nk9YVG8M9H7w=
+
+Name: jysrc/convert_api_to_pypredef.py
+SHA1-Digest: 6poAK2fIQaU7GihKWtT1Ey1T394=
+
+Name: Lib/site.py
+SHA1-Digest: XUP2U9E3lzH+0HNcJ+PsGCZY4SU=
+
+Name: Lib/bdb.py
+SHA1-Digest: K/18Br2Dv9XBEV5ynwg9ka1N240=
+
+Name: Lib/xml/sax/saxutils.py
+SHA1-Digest: +8GsuNq+lINBNyvY5diTGFQ1cZs=
+
+Name: Lib/encodings/mac_turkish.py
+SHA1-Digest: +2Q5hBCKvPnYk/bar616ljW0V+0=
+
+Name: Lib/traceback.py
+SHA1-Digest: bPSLVG2+emki/pWg6gxXBhFbSmk=
+
+Name: Lib/xml/dom/html/HTMLTableCellElement.py
+SHA1-Digest: XFpVC8YYQqJkQivrEdCmP0CgIFU=
+
+Name: Lib/encodings/cp850.py
+SHA1-Digest: l9J8uKWxLZT/iKz6w19NXDlw2hw=
+
+Name: jysrc/pyedit_create_lines_on_commas.py
+SHA1-Digest: rNRssw/LKSe661gALCwQyDOSdQE=
+
+Name: Lib/encodings/mac_iceland.py
+SHA1-Digest: SjoQi3VvOijrhQUTyUiKZEkNrfY=
+
+Name: jysrc/pyedit_assist_assign_value_to_var_if_None.py
+SHA1-Digest: m402rmvJc5LTDLBlHPT3G8Z1Cdk=
+
+Name: Lib/weakref.py
+SHA1-Digest: Et6wY1GTINxJv2vu2zFexcSXLig=
+
+Name: Lib/xml/dom/ext/reader/Sax2.py
+SHA1-Digest: jysdjjWIdX41EIr3Y4Ow17XVVaA=
+
+Name: Lib/reconvert.py
+SHA1-Digest: vyx9IvMBYKg1M9ks/UYe8ZA1Ij0=
+
+Name: Lib/xml/dom/html/HTMLHeadElement.py
+SHA1-Digest: 4OIMKIQX9OCJ0X2pnqjOiMzVPn8=
+
+Name: Lib/xml/dom/Element.py
+SHA1-Digest: nq48iNT7vtvQSnZ7WwCmtPgpY60=
+
+Name: Lib/xml/dom/html/HTMLTableCaptionElement.py
+SHA1-Digest: FLggZrv7Rs5uhkJ9H4uYKTWVhi4=
+
+Name: Lib/xml/dom/html/HTMLScriptElement.py
+SHA1-Digest: QMfNrFa17Odu8Hgvu2d475Lbxh4=
+
+Name: Lib/xml/dom/ext/c14n.py
+SHA1-Digest: 3cXbhHRdNNLbQDrAUSXG2fmq3Bg=
+
+Name: Lib/xml/dom/Text.py
+SHA1-Digest: MjnE34eunuBL8Tp8QQBjJeEDQ8I=
+
+Name: Lib/xml/dom/html/HTMLImageElement.py
+SHA1-Digest: n8QXLnSqPrZ/NJ2l6ew+dALzOsQ=
+
+Name: Lib/xml/dom/javadom.py
+SHA1-Digest: sbMYjKofMGI0J/5YP9lQ7jLof6c=
+
+Name: Lib/xml/dom/html/GenerateHtml.py
+SHA1-Digest: gIG8YxV8olBvET3Gl0jKVoDGiPg=
+
+Name: Lib/xml/dom/minidom.py
+SHA1-Digest: eFVLXioAWNTZBk3pP9GRMLUgSz8=
+
+Name: Lib/encodings/iso8859_6.py
+SHA1-Digest: HqtoD7oj4cpS8yluJQXAzyXwnIg=
+
+Name: Lib/xml/dom/html/HTMLHtmlElement.py
+SHA1-Digest: 4zwhAEonuG5vc2iH04tgDXF9xWQ=
+
+Name: Lib/string.py
+SHA1-Digest: PwnmRFNfbyqnfwEkK8OIXTX9WMU=
+
+Name: Lib/encodings/cp1258.py
+SHA1-Digest: E48mKeZnPloTggi7roSafBbTiCg=
+
+Name: Lib/xml/parsers/xmlproc/xmldtd.py
+SHA1-Digest: rRZ750J14WJERb3VrLlJJSzQc9Y=
+
+Name: Lib/Cookie.py
+SHA1-Digest: zSXSie+EGyZODjBNGTdG9Xm5mQg=
+
+Name: Lib/encodings/mbcs.py
+SHA1-Digest: D3eWCoRS+raIlJydFUOLIXPKX4k=
+
+Name: Lib/macpath.py
+SHA1-Digest: 1JI3s0YKJmOmHa/3pfcWolpVQio=
+
+Name: jysrc/pyedit_example.py
+SHA1-Digest: 12SLWYzos88lN4BdJ78c4Uj+ops=
+
+Name: Lib/xml/dom/html/HTMLHeadingElement.py
+SHA1-Digest: i/yUVIu4B8cpu8BPdJdcERwrwII=
+
+Name: Lib/encodings/mac_roman.py
+SHA1-Digest: SKE1U5kVoCjfkRz7Kp8xLbhPD2w=
+
+Name: Lib/xml/dom/html/HTMLUListElement.py
+SHA1-Digest: 8owi117o/2PfBR+nu7dYQhmpUcw=
+
+Name: Lib/xml/dom/html/HTMLModElement.py
+SHA1-Digest: kkPYjiAZJNDsRwYtkFDv8Lk48w0=
+
+Name: Lib/xml/dom/html/HTMLBaseFontElement.py
+SHA1-Digest: c5aaFvY3w7/jqnujTS47+wAx0F0=
+
+Name: Lib/encodings/cp437.py
+SHA1-Digest: Y64I5AZxc6Q84ZaISMXJFm3wp+s=
+
+Name: Lib/fileinput.py
+SHA1-Digest: jCaREsqAv1qzT+Jn+Y3vDrSYgQc=
+
+Name: jysrc/pyedit_enable_editor_wrap.py
+SHA1-Digest: jCa5CoTrpJ+BX+h4A6+8jOy+7vw=
+
+Name: Lib/encodings/utf_8.py
+SHA1-Digest: /yJwCBb4wjtXMQackmQRc1dLHsg=
+
+Name: Lib/encodings/cp1251.py
+SHA1-Digest: YuLORRwJ8c67xZ4IHmgz9z6b5T0=
+
+Name: Lib/xml/dom/html/HTMLDirectoryElement.py
+SHA1-Digest: v2eVit1rdsQbq91xBWQ3vtuCV1o=
+
+Name: Lib/xml/parsers/xmlproc/dtdparser.py
+SHA1-Digest: SkPfA9bw/5OHbetGMMuXHkbTxh8=
+
+Name: Lib/mimetools.py
+SHA1-Digest: 2ZRoYGwVVPf53y/8htgmR/N9VRU=
+
+Name: Lib/encodings/cp863.py
+SHA1-Digest: s1PpPUalDj/PmeGak7cVY+6qMQk=
+

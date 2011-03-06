@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "startx:		Access Firefox and Eclipse 
+passwd dev:	Set user dev's password 
+sudo command:	Execute command with escalated privileges 
+irssi -n nick:	Log into irc #sahana-eden with specified nick 
+confconsole:	View running services 
+update_eden:	Update eden; specify rev with xxx (optional) 
+update_web2py:	Update web2py; specify rev with xxx (optional) 
+sudo halt:	Shutdown"

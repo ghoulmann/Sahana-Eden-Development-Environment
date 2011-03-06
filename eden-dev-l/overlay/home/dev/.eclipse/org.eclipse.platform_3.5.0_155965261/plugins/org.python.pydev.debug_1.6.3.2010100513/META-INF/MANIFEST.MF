@@ -1,0 +1,250 @@
+Manifest-Version: 1.0
+Bundle-Name: Pydev debug
+Bundle-ClassPath: pydev-debug.jar,retroweaver-rt.jar,commons-logging-1
+ .1.jar,ws-commons-util-1.0.2.jar,xmlrpc-client-3.1.jar,xmlrpc-common-
+ 3.1.jar,xmlrpc-server-3.1.jar
+Bundle-Activator: org.python.pydev.debug.core.PydevDebugPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: org.python.pydev.debug; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.junit;bundle-version="[3.8.0,3.9.9]";resolution:=o
+ ptional,org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.runtime,or
+ g.eclipse.core.resources,org.eclipse.jface.text,org.eclipse.ui.editor
+ s,org.eclipse.ui.views,org.eclipse.debug.core,org.eclipse.debug.ui,or
+ g.eclipse.ui.workbench.texteditor,org.eclipse.core.variables,org.ecli
+ pse.ui.console,org.python.pydev.core,org.python.pydev.ast,org.python.
+ pydev.parser,org.python.pydev;bundle-version="1.6.3.2010100513",org.e
+ clipse.core.expressions,org.python.pydev.jython
+Export-Package: org.python.pydev.debug.codecoverage,org.python.pydev.d
+ ebug.core,org.python.pydev.debug.model,org.python.pydev.debug.model.r
+ emote,org.python.pydev.debug.newconsole,org.python.pydev.debug.newcon
+ sole.env,org.python.pydev.debug.newconsole.prefs,org.python.pydev.deb
+ ug.ui,org.python.pydev.debug.ui.actions,org.python.pydev.debug.ui.blo
+ cks,org.python.pydev.debug.ui.launching,org.python.pydev.debug.ui.pro
+ pertypages,org.python.pydev.debug.unittest
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: xmlrpc-common-3.1.jar
+SHA1-Digest: h7PtIygAxFONie75wUz+/jZVx2Y=
+
+Name: icons/python_16x16.png
+SHA1-Digest: Rbnn74+QTphcW6hciZF0K5gk5lk=
+
+Name: icons/junit.gif
+SHA1-Digest: Mli8GwHkBaljxTkFyBIKqokJsD4=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: pysrc/pydevd_vars.py
+SHA1-Digest: n7hTBgCP6slIgvYZzEk3hk0hMjo=
+
+Name: pysrc/tests/samples/__init__.py
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: pysrc/tests_python/test_additional_thread_info.py
+SHA1-Digest: C7gxgqgizMsXcqPjgmY3TXeggwQ=
+
+Name: icons/python_run.png
+SHA1-Digest: YFGVVfN93MOjbbOmP+jFuOhPgVs=
+
+Name: pysrc/pydevd_additional_thread_info.py
+SHA1-Digest: GzMDrFNeabimJQdcJMKpqWH2gio=
+
+Name: pysrc/tests/samples/nested_dir/nested2/__init__.py
+SHA1-Digest: rcg7GeeTSRscbqD9i0bNnzLlkvw=
+
+Name: pysrc/pydevd_file_utils.py
+SHA1-Digest: gGqBfMHQebnP+1dtuvFyrE3d+ds=
+
+Name: pysrc/tests_python/_debugger_case2.py
+SHA1-Digest: nWNc83ViRsS1B+8L0AxEDiVpeMo=
+
+Name: pysrc/tests/test_runfiles.py
+SHA1-Digest: d5KNHDG8IZzQZl738+37bAx9zH8=
+
+Name: pysrc/tests_python/_debugger_case1.py
+SHA1-Digest: IPIpJgyttBqKOPiTcFcTvYtb+8I=
+
+Name: pysrc/coverage.py
+SHA1-Digest: DRF3lu7lMO2jt5Fvlbq6PbWzuwE=
+
+Name: icons/breakmarker_gray.gif
+SHA1-Digest: qyp6/BglW2gScIeGbtVK/hXNgdE=
+
+Name: pysrc/pydevd_tracing.py
+SHA1-Digest: K8/btE+N4y32QFgbAmFIm7m9Ag8=
+
+Name: pysrc/tests/samples/nested_dir/nested2/non_test_file.py
+SHA1-Digest: gIcW+ZgB1M1G+9HgKKgz4Kj0pxg=
+
+Name: pysrc/pydevd_comm.py
+SHA1-Digest: peszB1CHW61gQBZrlSuuqY1lZSE=
+
+Name: pysrc/tests/samples/nested_dir/non_test_file.py
+SHA1-Digest: gIcW+ZgB1M1G+9HgKKgz4Kj0pxg=
+
+Name: pysrc/tests_python/_debugger_case56.py
+SHA1-Digest: PCw4MZyLUgvZBSfOYpQdGYc110Y=
+
+Name: pysrc/pydevd_psyco_stub.py
+SHA1-Digest: v+tq6T9b4NAnH+9krxSEAHnUnMI=
+
+Name: pysrc/runfiles.py
+SHA1-Digest: D47w4PwhkU+M2kNvAMZ9nsPm9V0=
+
+Name: icons/testfailures_ovr.gif
+SHA1-Digest: roBESYwBvb+Q0OHofmGdi7HjUHs=
+
+Name: pysrc/tests/samples/nested_dir/nested3/non_test_file.py
+SHA1-Digest: gIcW+ZgB1M1G+9HgKKgz4Kj0pxg=
+
+Name: pysrc/tests/samples/nested_dir/nested2/deep_nest_test.py
+SHA1-Digest: AfUCh8TjRs0KNiCDsroQ34LT+hg=
+
+Name: plugin.xml
+SHA1-Digest: SoAOdx8+4CmUsIcIHi3qMmUJ/HM=
+
+Name: pysrc/tests/samples/nested_dir/__init__.py
+SHA1-Digest: rcg7GeeTSRscbqD9i0bNnzLlkvw=
+
+Name: pysrc/pydevd_exec2.py
+SHA1-Digest: vduX4znJa8C+FAXfyrf/2vk8zsY=
+
+Name: pysrc/pydevd_io.py
+SHA1-Digest: U/uwnVifRJL21p+vllsdLr4r7ns=
+
+Name: icons/python_refactor.png
+SHA1-Digest: C2L/wlJ09B3fvJHliuK8Mkgur4A=
+
+Name: pysrc/tests/samples/nested_dir/nested3/junk.txt
+SHA1-Digest: coYrvTEQVBpAvlTlTvf5rBQgYo8=
+
+Name: commons-logging-1.1.jar
+SHA1-Digest: uiTV3oMZEbaEySzSie1f+CYnGCQ=
+
+Name: icons/testerrors_ovr.gif
+SHA1-Digest: NwCIn9BRqoPkQbFc9EQtrqaZ29E=
+
+Name: pysrc/tests_python/_debugger_case89.py
+SHA1-Digest: WDKDt9l1+iMS3N5TkgD9qKmABL0=
+
+Name: xmlrpc-client-3.1.jar
+SHA1-Digest: DI4bamCqC5JsCY3zJFr2kWtVyvk=
+
+Name: pysrc/tests_python/_debugger_case10.py
+SHA1-Digest: yA/qW2C+t+tYhcqtp9HZtVBzizw=
+
+Name: icons/ironpython_run.png
+SHA1-Digest: mPbZfv8e4zZ3WibzRp10JnHVzko=
+
+Name: pysrc/pydevd_reload.py
+SHA1-Digest: FyPBQCQYtfuy6z0jtn/4TWmk2iY=
+
+Name: pysrc/pydevd_resolver.py
+SHA1-Digest: jK0sXPUvbQ4eRM44jPN91PhGFkI=
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: pysrc/pydevd.py
+SHA1-Digest: wFBhaO1SibwVTpv2MXp1I6aq3gI=
+
+Name: pysrc/tests/test_pydevd_reload.py
+SHA1-Digest: 5f5wg+9VcJEtx+QCyBAb0T3+Mp8=
+
+Name: icons/greendot_big.gif
+SHA1-Digest: nRuo7UgAll5rgYeOnCz9e6a4DXs=
+
+Name: pysrc/pydevd_frame.py
+SHA1-Digest: 5F+HQAbn1Nolm+bSZD1hJjesYMQ=
+
+Name: icons/jython_run.png
+SHA1-Digest: ACD/L7WM063aKXyoZltQ1uBdGEg=
+
+Name: pysrc/tests/samples/nested_dir/nested3/__init__.py
+SHA1-Digest: rcg7GeeTSRscbqD9i0bNnzLlkvw=
+
+Name: icons/watch_exp.gif
+SHA1-Digest: gbhVbScZ5V97AjvtYXoG9Iy425Y=
+
+Name: icons/reddot.GIF
+SHA1-Digest: 6J4g2czcfvAkTZnMd1sy+kidFbk=
+
+Name: icons/breakmarker.gif
+SHA1-Digest: 47r0WkV7ADs0ZBXYyVnBDSoAKzI=
+
+Name: icons/greendot.gif
+SHA1-Digest: C5DBl0iqyXqtZOw9X/7RItZdZas=
+
+Name: pysrc/tests/test_pydevdio.py
+SHA1-Digest: cIjhTsTKOF79jPZ2FcvXa9Dx/qA=
+
+Name: icons/breakmarker_conditional.gif
+SHA1-Digest: iw7Idkz6OYW1YmdbH10Wb48zc5I=
+
+Name: icons/jython_unit.png
+SHA1-Digest: Mu0DoXj/dbVbK6Jq/EhDb7YFu6A=
+
+Name: pysrc/tests/samples/simple2_test.py
+SHA1-Digest: FlAj7gvqY6fDrbanMaOMsOK4Xl8=
+
+Name: xmlrpc-server-3.1.jar
+SHA1-Digest: c4ZsPXGR2OknPv/Y+rLuo+puR2k=
+
+Name: pysrc/pydevd_exec.py
+SHA1-Digest: GRclgr514eLMpRARdJAi4drPkFQ=
+
+Name: pysrc/tests/samples/non_test_file.py
+SHA1-Digest: gIcW+ZgB1M1G+9HgKKgz4Kj0pxg=
+
+Name: pysrc/tests_python/_debugger_case3.py
+SHA1-Digest: ViTXBCVHkL8Aiv33SlH/e2F3MMw=
+
+Name: icons/breakmarker_gray_conditional.gif
+SHA1-Digest: PO2Znfn9t6XSRJnFbNWipEhFpQU=
+
+Name: pydev-debug.jar
+SHA1-Digest: /ZKyIsQTz5PpH+JquhRZBhGOD3s=
+
+Name: pysrc/tests/samples/simple3_test.py
+SHA1-Digest: 5MvsXoW9M+ZNQZFwfbnnQz8QcmU=
+
+Name: ws-commons-util-1.0.2.jar
+SHA1-Digest: P0eObe93LBnRBT9hGY+h9qYRkjg=
+
+Name: pysrc/pydevd_vm_type.py
+SHA1-Digest: D/TKtUa6OdFrfkx+VR9i+HM4k0o=
+
+Name: pysrc/tests_python/_debugger_case4.py
+SHA1-Digest: eKop2rJkSQL+5DZz6hMhG+90NTk=
+
+Name: icons/arguments.gif
+SHA1-Digest: 33OC8YA5yukxohcGvpNAWm7HRlY=
+
+Name: pysrc/tests/samples/simple_test.py
+SHA1-Digest: MpERuuRiNsYBB8hHlPm7Ird9JyQ=
+
+Name: pysrc/tests_python/test_debugger.py
+SHA1-Digest: OFb0Xu7glCC+WcfLOVlyngecJJg=
+
+Name: pysrc/tests/samples/nested_dir/simple4_test.py
+SHA1-Digest: MutfUShYrrwJTigZI1hrWXdTcsc=
+
+Name: pysrc/tests_python/_debugger_case7.py
+SHA1-Digest: PwXitiai9wlSf2t93eZqz9S76Ns=
+
+Name: icons/python_coverage.png
+SHA1-Digest: zXtamwZl2f/WOaOW27mCq0yTcKQ=
+
+Name: pysrc/pydevd_constants.py
+SHA1-Digest: 1CMTxZSRGCkXwwphme3rTVBHjd0=
+
+Name: icons/python_unit.png
+SHA1-Digest: LOMStENMUJluPDoK4tOpS9osUnY=
+
+Name: icons/ironpython_unit.png
+SHA1-Digest: Hf5BtoAGHbN1brOuYMNNmyiDvFY=
+

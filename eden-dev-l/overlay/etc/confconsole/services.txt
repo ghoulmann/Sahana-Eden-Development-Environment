@@ -1,0 +1,5 @@
+Eden:       http://$ipaddr:8000/eden
+Web2py:     http://$ipaddr:8000
+Web shell:  https://$ipaddr:12320
+Webmin:     https://$ipaddr:12321
+SSH/SFTP:   root@$ipaddr (port 22)

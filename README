@@ -1,0 +1,29 @@
+Version L ISO and TKLPatch
+
+MORE INFORMATION
+http://9while9.com
+
+Usage Notes: http://9while9.com/index.php?option=com_content&view=article&id=111:sahana-eden-dev-environment-iso-and-tklpatch&catid=24:sahana-eden-develelopment-environment&Itemid=27
+
+NOTES
+
+Added iPython
+
+Updated to new stable revision of web2py
+
+Added README.html to Desktop of user dev. Placed as an overlay preconfigured .eclipse directory as /home/dev/.eclipse
+
+Added LXDM for automatic launch of GUI.
+
+apt-get install lxdm is now part of the first boot script with eclipse (followed by another apt-get clean). LXDM installed during the patch precluded the installation of security updates, the opportunity to set the root password, and the installation of Eclipse. So it had to be moved to init hook with Eclipse.
+
+On first boot, the system goes to cli. It's an opportunity to set password for the end user (dev):
+
+passwd dev
+
+On second boot, the GUI starts and asks for login credentials. Log in as dev and Eclipse autostarts.
+
+End-user documentation is in html format, can be found on the desktop, and is title README.html.
+
+PATCH INFORMATION
+Apply the patch to TurnKey Linux Core 11.1 by following our primer at http://9while9.com or the official TKLPatch documentation at http://turnkeylinux.org/tklpatch.

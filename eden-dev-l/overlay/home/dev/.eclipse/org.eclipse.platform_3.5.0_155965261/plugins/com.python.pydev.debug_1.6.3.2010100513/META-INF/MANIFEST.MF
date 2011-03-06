@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-Name: Extensions Debug Plug-in
+Bundle-ClassPath: debug.jar,retroweaver-rt.jar
+Bundle-Activator: com.python.pydev.debug.DebugPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: com.python.pydev.debug; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev;bundle-version="1.6.3.2010100513",org.python.pydev.core,org.python
+ .pydev.debug,org.eclipse.debug.core,org.eclipse.core.resources,org.ec
+ lipse.debug.ui,com.python.pydev,org.junit;bundle-version="[3.8.0,3.9.
+ 9]";resolution:=optional
+Export-Package: com.python.pydev.debug.remote.client_api
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: icons/start_debug_server.gif
+SHA1-Digest: /iTqMDLJ0+yrBZhLx1nGKpsUg0o=
+
+Name: icons/python.gif
+SHA1-Digest: 0yGJ/F/mVyreVeuD2VcuBCosgTw=
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: icons/term_debug_server.gif
+SHA1-Digest: jeVo6n+AjeSKjiv6oDyjDxGE90E=
+
+Name: plugin.xml
+SHA1-Digest: UdPMwHYGtHhPZrIye06X2k10MUs=
+
+Name: debug.jar
+SHA1-Digest: Yyly/oklvhjbXfah+m//zA+Fh4U=
+

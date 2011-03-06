@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+apt-get update
+apt-get install eclipse eclipse-pde lxdm -y
+apt-get clean

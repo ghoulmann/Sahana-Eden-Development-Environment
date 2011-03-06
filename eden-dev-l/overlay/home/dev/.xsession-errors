@@ -1,0 +1,34 @@
+Xsession: X session started for root at Wed Dec 29 16:34:12 UTC 2010
+lxpanel: can't load netstat plugin
+
+(lxpanel:20553): Gtk-WARNING **: Could not find the icon 'applications-other'. The 'hicolor' theme
+was not found either, perhaps you need to install it.
+You can get a copy from:
+	http://icon-theme.freedesktop.org/releases
+
+** ERROR **: Only one lxsession can be executed at a time.
+aborting...
+
+** (lxsession-logout:20573): WARNING **: dbus-interface.c:71: DBUS: The name org.freedesktop.ConsoleKit was not provided by any .service files
+
+** (lxsession-logout:20573): WARNING **: dbus-interface.c:71: DBUS: The name org.freedesktop.ConsoleKit was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0.0"
+      after 6258 requests (6156 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 4 (Interrupted system call) on X server :0.0.
+Xsession: X session started for root at Wed Dec 29 16:36:16 UTC 2010
+lxpanel: can't load netstat plugin
+
+(lxpanel:20633): Gtk-WARNING **: Could not find the icon 'applications-other'. The 'hicolor' theme
+was not found either, perhaps you need to install it.
+You can get a copy from:
+	http://icon-theme.freedesktop.org/releases
+GConf Error: Failed to contact configuration server; some possible causes are that you need to enable TCP/IP networking for ORBit, or you have stale NFS locks due to a system crash. See http://projects.gnome.org/gconf/ for information. (Details -  1: Failed to get connection to session: /bin/dbus-launch terminated abnormally without any error message)
+GConf Error: Failed to contact configuration server; some possible causes are that you need to enable TCP/IP networking for ORBit, or you have stale NFS locks due to a system crash. See http://projects.gnome.org/gconf/ for information. (Details -  1: Failed to get connection to session: /bin/dbus-launch terminated abnormally without any error message)
+W: Cannot inject update-sites, cannot find the correct config.
+
+** (lxsession-logout:20793): WARNING **: dbus-interface.c:71: DBUS: The name org.freedesktop.ConsoleKit was not provided by any .service files
+
+** (lxsession-logout:20793): WARNING **: dbus-interface.c:71: DBUS: The name org.freedesktop.ConsoleKit was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0.0"
+      after 15178 requests (15076 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 4 (Interrupted system call) on X server :0.0.

@@ -1,0 +1,8 @@
+#! /bin/bash -ex
+#pull revision specified on command line. In case no revision, pull.
+cd /home/web2py
+if [ -z "$1" ];then
+		bzr update
+	else
+		bzr update -r $1
+	fi

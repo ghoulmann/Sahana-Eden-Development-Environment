@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-Name: Fastparser Plug-in
+Bundle-ClassPath: fastparser.jar, retroweaver-rt.jar
+Bundle-Activator: com.python.pydev.fastparser.FastparserPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: com.python.pydev.fastparser; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev.parser,org.eclipse.jface.text,org.python.pydev.core,org.python.pyd
+ ev;bundle-version="1.6.3.2010100513",com.python.pydev
+Export-Package: com.python.pydev.fastparser
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: fastparser.jar
+SHA1-Digest: 47ibkHB7+eYoUJO96dxnJCh8va0=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: vhsqsw4pEKXDdiqIkEMLkjjE6XY=
+

@@ -1,0 +1,177 @@
+
+this is a debug log for diagnosing/reporting problems in bzr
+you can delete or truncate this file, or include sections in
+bug reports to https://bugs.launchpad.net/bzr/+filebug
+
+Wed 2010-12-29 15:19:26 +0000
+0.162  bazaar version: 2.1.1
+0.162  bzr arguments: [u'checkout', u'--lightweight', u'-r', u'2717', u'lp:~mdipierro/web2py/devel', u'/home/web2py/']
+0.217  looking for plugins in /root/.bazaar/plugins
+0.217  looking for plugins in /usr/lib/python2.6/dist-packages/bzrlib/plugins
+0.439  encoding stdout as sys.stdout encoding 'ANSI_X3.4-1968'
+[ 6400] 2010-12-29 15:19:28.088 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+9.839  creating branch reference in file:///home/web2py/.bzr/
+10.197  trying to create missing lock '/home/web2py/.bzr/checkout/dirstate'
+10.197  opening working tree '/home/web2py'
+14.488  25 bytes left on the HTTP socket
+15.625  25 bytes left on the HTTP socket
+16.141  25 bytes left on the HTTP socket
+17.476  25 bytes left on the HTTP socket
+18.859  25 bytes left on the HTTP socket
+20.528  25 bytes left on the HTTP socket
+27.945  25 bytes left on the HTTP socket
+35.665  25 bytes left on the HTTP socket
+39.425  Transferred: 9474KiB (252.6K/s r:9440K w:34K)
+39.425  return code 0
+
+Wed 2010-12-29 15:20:05 +0000
+0.044  bazaar version: 2.1.1
+0.045  bzr arguments: [u'branch', u'-r', u'1585', u'lp:sahana-eden', u'/home/web2py/applications/eden']
+0.052  looking for plugins in /root/.bazaar/plugins
+0.052  looking for plugins in /usr/lib/python2.6/dist-packages/bzrlib/plugins
+0.135  encoding stdout as sys.stdout encoding 'ANSI_X3.4-1968'
+[ 6401] 2010-12-29 15:20:06.921 WARNING: You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+6.470  creating repository in file:///home/web2py/applications/eden/.bzr/.
+6.481  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~flavour/sahana-eden/trunk/.bzr/repository/')(RepositoryFormat2a()) and CHKInventoryRepository('file:///home/web2py/applications/eden/.bzr/repository/')(RepositoryFormat2a())
+16.515  25 bytes left on the HTTP socket
+28.631  25 bytes left on the HTTP socket
+31.078  25 bytes left on the HTTP socket
+32.573  25 bytes left on the HTTP socket
+36.492  25 bytes left on the HTTP socket
+38.111  25 bytes left on the HTTP socket
+39.038  25 bytes left on the HTTP socket
+40.361  25 bytes left on the HTTP socket
+43.160  25 bytes left on the HTTP socket
+45.921  25 bytes left on the HTTP socket
+48.131  25 bytes left on the HTTP socket
+49.358  25 bytes left on the HTTP socket
+51.425  25 bytes left on the HTTP socket
+53.421  25 bytes left on the HTTP socket
+55.195  25 bytes left on the HTTP socket
+56.248  25 bytes left on the HTTP socket
+58.337  25 bytes left on the HTTP socket
+62.636  25 bytes left on the HTTP socket
+63.230  25 bytes left on the HTTP socket
+64.178  25 bytes left on the HTTP socket
+71.330  25 bytes left on the HTTP socket
+72.211  25 bytes left on the HTTP socket
+73.356  25 bytes left on the HTTP socket
+74.365  25 bytes left on the HTTP socket
+76.161  25 bytes left on the HTTP socket
+76.961  25 bytes left on the HTTP socket
+77.971  25 bytes left on the HTTP socket
+78.784  25 bytes left on the HTTP socket
+79.563  25 bytes left on the HTTP socket
+81.127  25 bytes left on the HTTP socket
+83.078  25 bytes left on the HTTP socket
+85.553  25 bytes left on the HTTP socket
+88.310  25 bytes left on the HTTP socket
+90.466  25 bytes left on the HTTP socket
+92.831  25 bytes left on the HTTP socket
+94.706  25 bytes left on the HTTP socket
+96.956  25 bytes left on the HTTP socket
+99.146  25 bytes left on the HTTP socket
+101.287  25 bytes left on the HTTP socket
+102.917  25 bytes left on the HTTP socket
+105.235  25 bytes left on the HTTP socket
+106.671  25 bytes left on the HTTP socket
+107.844  25 bytes left on the HTTP socket
+111.031  25 bytes left on the HTTP socket
+112.609  25 bytes left on the HTTP socket
+114.433  25 bytes left on the HTTP socket
+116.350  25 bytes left on the HTTP socket
+117.423  25 bytes left on the HTTP socket
+118.411  25 bytes left on the HTTP socket
+120.012  25 bytes left on the HTTP socket
+121.170  25 bytes left on the HTTP socket
+122.424  25 bytes left on the HTTP socket
+123.737  25 bytes left on the HTTP socket
+125.632  25 bytes left on the HTTP socket
+129.440  25 bytes left on the HTTP socket
+130.849  25 bytes left on the HTTP socket
+133.636  25 bytes left on the HTTP socket
+137.116  25 bytes left on the HTTP socket
+138.751  25 bytes left on the HTTP socket
+140.737  25 bytes left on the HTTP socket
+141.879  25 bytes left on the HTTP socket
+142.841  25 bytes left on the HTTP socket
+145.273  25 bytes left on the HTTP socket
+147.041  25 bytes left on the HTTP socket
+149.587  25 bytes left on the HTTP socket
+152.463  25 bytes left on the HTTP socket
+153.855  25 bytes left on the HTTP socket
+155.494  25 bytes left on the HTTP socket
+158.381  25 bytes left on the HTTP socket
+160.392  25 bytes left on the HTTP socket
+163.211  25 bytes left on the HTTP socket
+164.770  25 bytes left on the HTTP socket
+168.249  25 bytes left on the HTTP socket
+169.681  25 bytes left on the HTTP socket
+170.608  25 bytes left on the HTTP socket
+173.121  25 bytes left on the HTTP socket
+201.210  25 bytes left on the HTTP socket
+201.745  25 bytes left on the HTTP socket
+203.936  25 bytes left on the HTTP socket
+204.942  25 bytes left on the HTTP socket
+205.810  25 bytes left on the HTTP socket
+206.635  25 bytes left on the HTTP socket
+207.965  25 bytes left on the HTTP socket
+209.637  25 bytes left on the HTTP socket
+210.925  25 bytes left on the HTTP socket
+212.116  25 bytes left on the HTTP socket
+213.229  25 bytes left on the HTTP socket
+214.509  25 bytes left on the HTTP socket
+216.352  25 bytes left on the HTTP socket
+217.738  25 bytes left on the HTTP socket
+244.482  25 bytes left on the HTTP socket
+245.016  25 bytes left on the HTTP socket
+248.272  25 bytes left on the HTTP socket
+249.773  25 bytes left on the HTTP socket
+251.030  25 bytes left on the HTTP socket
+252.386  25 bytes left on the HTTP socket
+253.721  25 bytes left on the HTTP socket
+254.471  25 bytes left on the HTTP socket
+256.810  25 bytes left on the HTTP socket
+290.066  25 bytes left on the HTTP socket
+292.999  25 bytes left on the HTTP socket
+294.613  25 bytes left on the HTTP socket
+297.484  25 bytes left on the HTTP socket
+299.371  25 bytes left on the HTTP socket
+302.895  25 bytes left on the HTTP socket
+303.839  25 bytes left on the HTTP socket
+336.635  25 bytes left on the HTTP socket
+338.018  25 bytes left on the HTTP socket
+368.969  25 bytes left on the HTTP socket
+371.954  25 bytes left on the HTTP socket
+375.584  25 bytes left on the HTTP socket
+377.454  25 bytes left on the HTTP socket
+378.943  25 bytes left on the HTTP socket
+379.845  25 bytes left on the HTTP socket
+381.758  25 bytes left on the HTTP socket
+382.313  25 bytes left on the HTTP socket
+383.017  25 bytes left on the HTTP socket
+384.759  25 bytes left on the HTTP socket
+385.665  25 bytes left on the HTTP socket
+387.543  25 bytes left on the HTTP socket
+391.020  25 bytes left on the HTTP socket
+392.945  25 bytes left on the HTTP socket
+394.618  25 bytes left on the HTTP socket
+396.764  25 bytes left on the HTTP socket
+397.820  25 bytes left on the HTTP socket
+403.053  25 bytes left on the HTTP socket
+404.635  25 bytes left on the HTTP socket
+405.351  25 bytes left on the HTTP socket
+406.033  25 bytes left on the HTTP socket
+408.057  25 bytes left on the HTTP socket
+408.900  25 bytes left on the HTTP socket
+410.171  25 bytes left on the HTTP socket
+412.573  25 bytes left on the HTTP socket
+425.711  creating branch <bzrlib.branch.BzrBranchFormat7 object at 0xa49442c> in file:///home/web2py/applications/eden/.bzr/
+426.310  created new branch BzrBranch7('file:///home/web2py/applications/eden/')
+426.317  trying to create missing lock '/home/web2py/applications/eden/.bzr/checkout/dirstate'
+426.318  opening working tree '/home/web2py/applications/eden'
+[ 6401] 2010-12-29 15:27:21.293 INFO: Branched 1585 revision(s).
+435.416  Transferred: 141194KiB (325.2K/s r:141115K w:78K)
+435.416  return code 0

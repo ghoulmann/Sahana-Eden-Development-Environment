@@ -1,0 +1,142 @@
+#!/bin/bash -ex
+#Copyright Rik Goldman
+    #This file is part of TKLPatch for Sahana-Eden Development Environmnet.
+
+    #TKLPatch for Sahana Eden Development Environment is free software: you can redistribute it and/or modify
+    #it under the terms of the GNU General Public License as published by
+    #the Free Software Foundation, either version 3 of the License, or
+    #(at your option) any later version.
+
+    #This software is distributed in the hope that it will be useful,
+    #but WITHOUT ANY WARRANTY; without even the implied warranty of
+    #MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    #GNU General Public License for more details.
+
+    #You should have received a copy of the GNU General Public License
+    #along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
+###Overlays###
+#Use overlay for web2py update script /usr/local/bin
+#Use overlay for Eden update script /usr/local/bin
+#use overlay for Eden import script /usr/local/bin
+#Use overlay for irssi config /home/dev/.irrsi
+
+#set hostname
+HOSTNAME=eden-dev
+echo "$HOSTNAME" > /etc/hostname
+sed -i "s|127.0.1.1 \(.*\)|127.0.1.1 $HOSTNAME|" /etc/hosts
+
+#install from Repos
+#Problem: apt-get eclipse, eclipse-platform, or eclipse-pde break the patch process. Support call is up at turnkey linux forums.
+#Handled instead as 1st run script in overlay
+#Problem: LXDM starts prior to init scripts.
+#Hadled ironically by putting it in an init script.
+apt-get update
+DEBIAN_FRONTEND=noninteractive apt-get -y \
+    -o DPkg::Options::=--force-confdef \
+    -o DPkg::Options::=--force-confold \
+    install ipython lxde bzip2 irssi python-lxml python-reportlab python-xlwt python-shapely bzr libgeos-3.1.0 firefox firebug sudo xorg synaptic
+#Install python-tweepy
+#(add to sources.list.d - this may also be handled through overly
+echo -e "deb http://ppa.launchpad.net/chris-lea/python-tweepy/ubuntu lucid main \n
+deb-src http://ppa.launchpad.net/chris-lea/python-tweepy/ubuntu lucid main" >> /etc/apt/sources.list.d/sources.list 
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C7917B12
+apt-get update
+DEBIAN_FRONTEND=noninteractive apt-get -y \
+    -o DPkg::Options::=--force-confdef \
+    -o DPkg::Options::=--force-confold \
+     install python-tweepy
+
+#Add account for web2py (no login)
+useradd -m -r web2py
+#removed: (redundant) addgroup web2py
+#removed: (redundant) addgroup sudo
+
+#bzr web2py and eden
+bzr checkout --lightweight -r 3037 lp:~mdipierro/web2py/devel /home/web2py/
+bzr branch -r 1585 lp:sahana-eden /home/web2py/applications/eden
+
+###Commenting out lines related to running web2py as a service - good code but not neccessary for this patch)###
+#String Replacements For web2py service
+#cp /home/web2py/scripts/web2py.ubuntu.sh /etc/init.d/web2py
+#sed -i 's|/usr/lib/$NAME|/home/$NAME|' /etc/init.d/web2py
+#sed -i 's|web2py.py --password=<recycle> --pid_filename=$PIDFILE|web2py.py -i 0 127.0.0.1 -a admin --port=80 --pid_filename=$PIDFILE|' /etc/init.d/web2py
+#sed -i 's|DAEMON_USER=web2py|DAEMON_USER=root|' /etc/init.d/web2py
+#make service executable
+#chmod +x /etc/init.d/web2py
+
+#Copy Deployment-Templates
+cp /home/web2py/applications/eden/deployment-templates/models/000_config.py /home/web2py/applications/eden/models/000_config.py
+cp /home/web2py/applications/eden/deployment-templates/cron/crontab /home/web2py/applications/eden/cron/crontab
+
+#Stream Edit /home/web2py/applications/eden/models/000_config.py
+sed -i 's|EDITING_CONFIG_FILE = False|EDITING_CONFIG_FILE = True|' /home/web2py/applications/eden/models/000_config.py
+sed -i 's|127.0.0.1:8000|127.0.0.1|' /home/web2py/applications/eden/models/000_config.py
+
+#Add user dev, include in group web2py and sudo, use bash as shell
+useradd -G web2py,sudo --shell /bin/bash -m dev
+
+#Set mode recursively for /home/web2py
+chmod -R 776 /home/web2py
+
+#change ownership of /home/web2py recursively
+chown -R web2py:web2py /home/web2py
+
+#This is too much diligence, setting ownership to /home/dev in case useradd -m didn't do it
+chown -R dev /home/dev
+
+#Ensure overlay scripts in /usr/local/bin are executeable
+chmod +x /usr/local/bin/update_web2py
+chmod +x /usr/local/bin/update_eden
+chmod +x /usr/local/bin/import_eden
+
+#Download and Configure PyDev
+#cd /root
+#wget http://sourceforge.net/projects/pydev/files/pydev/Pydev%201.6.3/org.python.pydev.feature-1.6.3.2010100513.zip
+#mkdir -p /usr/share/eclipse/dropins
+
+####ini file suggests /usr/share/eclipse/dropins (contrary to docs)
+#unzip org.python.pydev.feature-1.6.3.2010100513.zip -d /usr/share/eclipse/dropins
+
+#rm org.python.pydev.feature-1.6.3.2010100513.zip
+
+
+###Handle Extracted Contents from Pydev - DEPRECATED
+#Eclipse Plugins
+#cd /root/plugins
+#mkdir -p /usr/lib/eclipse/dropins
+#cp -R /root/plugins/ /usr/lib/eclipse/dropins/plugins
+#rm -R /root/plugins/*
+#rmdir /root/plugins
+
+#Eclipse Features
+#cd /root/features
+#mkdir -p /usr/lib/eclipse/dropins/featurs
+#cp -R /root/features/ /usr/lib/eclipse/dropins/features
+#rm -r /root/features/*
+#rmdir /root/features
+
+#Prepare for Import
+touch /home/web2py/NEWINSTALL
+
+#Disable confconsole
+update-rc.d -f confconsole disable
+
+#LXDE will complain if this directory doesn't exist
+mkdir /usr/share/backgrounds
+
+###Only needed if web2py is set to use as service
+#Update rc.d
+#update-rc.d web2py defaults
+
+###This will autostart Eclipse for all users in all cases (universally) upon start of x. It can alternatively be set to autostart only for dev.
+
+#Autostart Eclipse
+echo "eclipse" >> /etc/xdg/lxsession/LXDE/autostart
+###Overlay in /etc/update-motd.d/98-usage presents usage hints on login.
+
+#Set Mode and Permission for MOTD
+chmod 755 /etc/update-motd.d/98-usage
+chown root:root /etc/update-motd.d/98-usage
+#Delete Packages that are no longer needed
+apt-get clean

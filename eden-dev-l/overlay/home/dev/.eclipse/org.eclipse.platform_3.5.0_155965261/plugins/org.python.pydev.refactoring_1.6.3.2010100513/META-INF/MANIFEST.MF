@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bundle-Name: %peptic.pluginName
+Bundle-ClassPath: refactoring.jar,retroweaver-rt.jar
+Bundle-Activator: org.python.pydev.refactoring.PepticPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %peptic.providerName
+Bundle-SymbolicName: org.python.pydev.refactoring;singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev.core,org.python.pydev.parser,org.eclipse.ltk.core.refactoring,org.
+ eclipse.ltk.ui.refactoring,org.eclipse.core.resources,org.eclipse.jfa
+ ce.text,org.eclipse.ui.ide,org.eclipse.ui.workbench.texteditor,org.ec
+ lipse.ui.editors,org.python.pydev;bundle-version="1.6.3.2010100513",o
+ rg.python.pydev.jython,org.eclipse.compare
+Export-Package: org.python.pydev.refactoring,org.python.pydev.refactor
+ ing.core.base,org.python.pydev.refactoring.core.change,org.python.pyd
+ ev.refactoring.core.edit,org.python.pydev.refactoring.core.request,or
+ g.python.pydev.refactoring.ui.actions,org.python.pydev.refactoring.ui
+ .actions.internal
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: icons/methpub_obj.gif
+SHA1-Digest: b1ksX7InObRkpeTyh4K3bh6e06E=
+
+Name: icons/class_obj.gif
+SHA1-Digest: yj7yWcEVXmJC4fHlp+/ZSYfDvhY=
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: plugin.xml
+SHA1-Digest: HpksPZRy89QrtE16vphedZfm4nY=
+
+Name: plugin.properties
+SHA1-Digest: C+lkJE4d8L+oIUT/HcbJGEtAuQw=
+
+Name: icons/logo.ufo
+SHA1-Digest: 86NTtDnJ9w/Zk6rLi8Gn9l7io/k=
+
+Name: icons/logo.png
+SHA1-Digest: 98tBZBV001g46J0gTKLS/w1YcRE=
+
+Name: refactoring.jar
+SHA1-Digest: J98C21kkS1N4CdqLwpwvGFt84iQ=
+
+Name: icons/attrpub_obj.gif
+SHA1-Digest: x4KcODHFq0V1N32Op9X/F+CCCQc=
+

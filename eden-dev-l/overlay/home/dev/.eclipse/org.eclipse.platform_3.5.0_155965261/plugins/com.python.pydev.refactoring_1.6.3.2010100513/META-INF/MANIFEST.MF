@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-Name: Refactoring Plug-in
+Bundle-ClassPath: refactoring.jar,retroweaver-rt.jar
+Bundle-Activator: com.python.pydev.refactoring.RefactoringPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: com.python.pydev.refactoring; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.ui.editors,org.eclipse.ui.i
+ de,org.eclipse.ui.workbench.texteditor,org.eclipse.core.runtime,org.e
+ clipse.jface.text,org.python.pydev;bundle-version="1.6.3.2010100513",
+ com.python.pydev,org.junit;bundle-version="[3.8.0,3.9.9]";resolution:
+ =optional,org.eclipse.search,org.python.pydev.ast,org.python.pydev.co
+ re,org.python.pydev.parser,org.eclipse.core.resources,com.python.pyde
+ v.analysis,org.eclipse.ltk.core.refactoring,org.eclipse.ltk.ui.refact
+ oring,org.eclipse.jdt.core;resolution:=optional,org.eclipse.jdt.ui;re
+ solution:=optional,org.python.pydev.refactoring;bundle-version="0.9.7
+ .1"
+Export-Package: com.python.pydev.refactoring.actions,com.python.pydev.
+ refactoring.hyperlink
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: BZQN7KIILbspNpFfHPyj/0E6buE=
+
+Name: plugin.properties
+SHA1-Digest: 4rCiTCwCleQbF3M07q1d2B1Xgm8=
+
+Name: refactoring.jar
+SHA1-Digest: zUBFMb7VzGHcppvWsNunKp5X4R0=
+

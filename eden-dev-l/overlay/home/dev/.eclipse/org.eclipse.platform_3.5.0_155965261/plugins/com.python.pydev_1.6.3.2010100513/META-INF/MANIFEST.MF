@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bundle-Name: Pydev Extensions
+Bundle-ClassPath: pydev.jar,retroweaver-rt.jar,mail.jar,activation.jar
+Bundle-Activator: com.python.pydev.PydevPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: com.python.pydev; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="1.6.3.2010100513",org.pytho
+ n.pydev.core,org.junit;bundle-version="[3.8.0,3.9.9]";resolution:=opt
+ ional,org.python.pydev.ast,org.python.pydev.parser,org.eclipse.ui.edi
+ tors,org.eclipse.ui.workbench.texteditor,org.eclipse.core.resources,o
+ rg.eclipse.core.variables,org.eclipse.debug.core,org.eclipse.debug.ui
+ ,org.python.pydev.debug,org.eclipse.ui.console,org.python.pydev.jytho
+ n,org.eclipse.search,org.eclipse.ui.ide
+Export-Package: com.python.pydev,com.python.pydev.actions,com.python.p
+ ydev.refactoring,com.python.pydev.ui.hierarchy,com.python.pydev.ui.se
+ arch,com.python.pydev.util
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: activation.jar
+SHA1-Digest: rvKlIJRFP1sAKYHnrixDY/evYvs=
+
+Name: icons/class_hi.gif
+SHA1-Digest: vYgFu3TSq5m9t5d1POqGcLSLpAg=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: icons/python_file.gif
+SHA1-Digest: gTRixD8CyMaKVlNh1AusW9SNog4=
+
+Name: mail.jar
+SHA1-Digest: RTATsFdnNjTcCY15mCTAP7V9qhc=
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: VV2sQrZVGL63f+9F+vEAOQEYN18=
+
+Name: plugin.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: icons/searchm_obj.gif
+SHA1-Digest: kCLmGfhNk3E8XFQCF5umAga+HXU=
+
+Name: pydev.jar
+SHA1-Digest: 8vw960wOAm3mjTdgLA14cGPmkVY=
+

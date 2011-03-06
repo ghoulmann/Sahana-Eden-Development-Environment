@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1293396607541'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='20'>
+    <artifact classifier='osgi.bundle' id='com.python.pydev.refactoring' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='190651'/>
+        <property name='download.size' value='190651'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.refactoring' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='315617'/>
+        <property name='download.size' value='315617'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.red_core' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='27577'/>
+        <property name='download.size' value='27577'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.core' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='223613'/>
+        <property name='download.size' value='223613'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.django' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='62723'/>
+        <property name='download.size' value='62723'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.help' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='8034'/>
+        <property name='download.size' value='8034'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.debug' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='678241'/>
+        <property name='download.size' value='678241'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='1519498'/>
+        <property name='download.size' value='1519498'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.jython' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='1484243'/>
+        <property name='download.size' value='1484243'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.concurrent' version='1.0.1.R35x_v20100209'>
+      <properties size='2'>
+        <property name='artifact.size' value='8932'/>
+        <property name='download.size' value='19844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mortbay.management' version='6.1.15.v201002111330'>
+      <properties size='2'>
+        <property name='artifact.size' value='49475'/>
+        <property name='download.size' value='49475'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.ast' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='12542'/>
+        <property name='download.size' value='12542'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.customizations' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='115594'/>
+        <property name='download.size' value='115594'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.python.pydev.fastparser' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='12293'/>
+        <property name='download.size' value='12293'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.python.pydev.codecompletion' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='33234'/>
+        <property name='download.size' value='33234'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.python.pydev.debug' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='30947'/>
+        <property name='download.size' value='30947'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.python.pydev.parser' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='803374'/>
+        <property name='download.size' value='803374'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.python.pydev.feature' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='10714'/>
+        <property name='download.size' value='10714'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.python.pydev.analysis' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='239794'/>
+        <property name='download.size' value='239794'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.python.pydev' version='1.6.3.2010100513'>
+      <properties size='2'>
+        <property name='artifact.size' value='718878'/>
+        <property name='download.size' value='718878'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

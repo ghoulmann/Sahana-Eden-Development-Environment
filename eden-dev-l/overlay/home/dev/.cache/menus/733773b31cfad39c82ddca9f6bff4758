@@ -1,0 +1,218 @@
+1.1
+applications.menu
+14
+D/root/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/root/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/root/.config/menus/applications-merged
+F/root/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+7
+Image Viewer
+gpicview %f
+2
+0
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+7
+Terminal
+lxterminal
+0
+0
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+7
+
+leafpad %f
+0
+0
+-pcmanfm-find.desktop
+Search for Files or Folders
+Search for files and folders in disks
+gtk-find
+
+7
+
+pcmanfm --find-files %F
+2
+0
+-xarchiver.desktop
+Xarchiver
+A GTK+2 only archive manager
+xarchiver.png
+
+7
+Archive manager
+xarchiver
+2
+0
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+-firefox.desktop
+Firefox Web Browser
+Browse the World Wide Web
+firefox
+
+7
+Web Browser
+firefox %u
+2
+0
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+2
+-openbox.desktop
+Openbox Session
+Use this session to run Openbox as your desktop environment
+
+
+7
+
+openbox-session
+0
+0
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+-eclipse.desktop
+Eclipse
+Eclipse Integrated Development Environment
+eclipse
+
+7
+
+eclipse
+0
+0
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+-pcmanfm.desktop
+PCMan File Manager
+Browse the file system and manage the files
+pcmanfm
+
+7
+File Manager
+pcmanfm %F
+2
+0
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+-lxappearance.desktop
+Appearance
+Customize the look of the desktop
+preferences-desktop-theme
+
+7
+
+lxappearance
+2
+-11
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+7
+
+lxsession-edit
+0
+-15
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+7
+
+lxinput
+2
+1
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+
+
+7
+
+lxrandr
+0
+0
+-openjdk-6-policytool.desktop
+OpenJDK Java 6 Policy Tool
+OpenJDK Java 6 Policy Tool
+openjdk-6
+
+7
+
+/usr/lib/jvm/java-6-openjdk/bin/policytool
+0
+0
+-obconf.desktop
+Openbox Configuration Manager
+Configure and personalize the Openbox window manager
+obconf
+
+7
+
+obconf %f
+2
+0
+
+

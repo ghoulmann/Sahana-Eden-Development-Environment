@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-Name: Ast Plug-in
+Bundle-ClassPath: ast.jar,retroweaver-rt.jar
+Bundle-Activator: org.python.pydev.ast.AstPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: org.python.pydev.ast; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Export-Package: org.python.pydev.ast,org.python.pydev.ast.management
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: plugin.xml
+SHA1-Digest: vhsqsw4pEKXDdiqIkEMLkjjE6XY=
+
+Name: ast.jar
+SHA1-Digest: vDOQe/1L6SUQg/rAf33cLivFp2I=
+

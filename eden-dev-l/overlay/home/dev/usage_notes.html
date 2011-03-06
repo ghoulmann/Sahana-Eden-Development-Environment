@@ -1,0 +1,42 @@
+<h1>End-User Usage Notes<h1>
+<h2>User Account</h2>
+
+The developer's account is dev. The password is set by root with the following command:<p>
+
+<pre>passwd dev</pre>
+
+To enter the command, use LXterminal in the accessories menu.<p>
+
+Once the dev password is set, log out as root and login as dev.<p>
+
+<h2>Escalating Privileges</h2>
+
+It's important to know that dev can escalate privileges to perform commands with root privileges: this is crucial for shutdown, rebooting, etc. For example, to shutdown, open LXterminal as user dev and enter the following:<p>
+
+<pre>sudo halt</pre>
+
+Similarly, reboot from LXterminal:<p>
+
+<pre>sudo shutdown -r now</pre>
+
+<h2>Configuring the Network (Static and Dynamic)</h2>
+
+To configure the network with a static IP address or to lease a DHCP address:<p>
+
+<pre>sudo confconsole</pre>
+
+Select advanced, select the option to configure network: once configured successfully, use the interface to quit the confconsole.<p>
+<h2>Configuring the VM for your network configuration</h2>
+If the network isn't working:
+
+<h3>VMware</h3>
+<ol>
+<li>Select the Eden-Dev-Env virtual appliance.
+<li>Choose "Edit Virtual Machine Settings"
+<li>Select "Network Adapter"
+<li>Select the bridged or NAT options; both options are explained in the interface. Choose the right one for your use and deployment settings.</ol>
+
+<h3>VirtualBox</h3>
+<ol>
+<li>From the "Devices" menu, select "Network Adapters".<p>
+<li>Select "Bridged Adapter"& select the Network Adapter in use (e.g. it defaults to Wired, but you're using Wireless).</ol>

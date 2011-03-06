@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-Name: Codecompletion Plug-in
+Bundle-ClassPath: codecompletion.jar, retroweaver-rt.jar
+Bundle-Activator: com.python.pydev.codecompletion.CodecompletionPlugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: com.python.pydev.codecompletion; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="1.6.3.2010100513",com.pytho
+ n.pydev,org.python.pydev.core,org.python.pydev.parser,org.junit;bundl
+ e-version="[3.8.0,3.9.9]";resolution:=optional,com.python.pydev.fastp
+ arser,org.eclipse.core.resources,com.python.pydev.analysis,org.eclips
+ e.ui.editors,com.python.pydev.refactoring
+Export-Package: com.python.pydev.codecompletion
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: codecompletion.jar
+SHA1-Digest: +9DBHIc7ffBkPYyPEuszMiclCIc=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: 1DoBoOGearFtj9D6UDW7qWGdY4A=
+

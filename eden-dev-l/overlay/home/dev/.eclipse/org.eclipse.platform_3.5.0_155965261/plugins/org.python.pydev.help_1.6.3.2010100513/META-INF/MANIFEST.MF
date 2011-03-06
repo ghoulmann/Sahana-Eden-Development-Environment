@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-Name: Pydev Online Help
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Aptana, Inc.
+Bundle-SymbolicName: org.python.pydev.help; singleton:=true
+Bundle-Localization: plugin
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: toc_main.xml
+SHA1-Digest: R7Rjqvstpm6IgLsQQPhuKYBWdKI=
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: html/links.html
+SHA1-Digest: 0T0hFYk26VgooUFcrmErC850jVY=
+
+Name: html/index.html
+SHA1-Digest: z9Ykr7T+IaLO9VXDWuDpYLLtTsw=
+
+Name: plugin.xml
+SHA1-Digest: qBrBIKDrY8I1Rbl/zDS3ayjwdp4=
+

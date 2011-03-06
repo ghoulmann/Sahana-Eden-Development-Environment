@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-Name: Pydev Red Core
+Bundle-ClassPath: red-core.jar,retroweaver-rt.jar
+Bundle-Activator: org.python.pydev.red_core.PydevRedCoreActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.python.pydev.red_core;singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev;bundle-version="1.6.3.2010100513",org.eclipse.jface.text,com.aptan
+ a.editor.common;resolution:=optional,org.eclipse.ui.workbench.textedi
+ tor,org.python.pydev.core,org.eclipse.ui.editors,org.eclipse.ui.navig
+ ator,org.eclipse.ui.views,com.aptana.theme;resolution:=optional
+Export-Package: org.python.pydev.red_core
+Bundle-Version: 1.6.3.2010100513
+Eclipse-LazyStart: true
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: retroweaver-rt.jar
+SHA1-Digest: 55a5WcTTLmknHVUW1+XFnkrHxxM=
+
+Name: plugin.xml
+SHA1-Digest: zcGVosOO9A5/qI58ccrY+UDZvkY=
+
+Name: red-core.jar
+SHA1-Digest: GRyEB0DFFjkdXB4nni08dJ9ll/s=
+
