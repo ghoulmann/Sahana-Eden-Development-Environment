@@ -35,7 +35,7 @@ apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get -y \
     -o DPkg::Options::=--force-confdef \
     -o DPkg::Options::=--force-confold \
-    install ipython lxde bzip2 irssi python-lxml python-reportlab python-xlwt python-shapely bzr libgeos-3.1.0 firefox firebug sudo xorg synaptic
+    install pastebinit ipython lxde bzip2 irssi python-lxml python-reportlab python-xlwt python-shapely bzr libgeos-3.1.0 firefox firebug sudo xorg synaptic
 #Install python-tweepy
 #(add to sources.list.d - this may also be handled through overly
 echo -e "deb http://ppa.launchpad.net/chris-lea/python-tweepy/ubuntu lucid main \n
